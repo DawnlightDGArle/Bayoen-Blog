@@ -1,0 +1,57 @@
+.homebanner {
+	position: absolute;
+	float: right;
+	top: 15px;
+	left:725px;
+}
+
+.imagealign1 {
+	position: absolute;
+	float: right;
+	top: 375px;
+	left: 760px;
+}
+
+.imagealign2 {
+	position: absolute;
+	float: right;
+	top: 375px;
+}
+
+.imagealign3 {
+	position: absolute;
+	float: right;
+	top: 590px;
+}
+
+.imagealign4 {
+	position: absolute;
+	float: right;
+	top: 790px;
+}
+
+#locatortext {
+	margin: 10px;
+}
+
+#locator1 {
+	position: absolute;
+	float: right;
+	bottom: 0;
+	top: 825px; 
+	left: 835px;
+	z-index: 1;
+	visibility: show;"
+}
+
+#textbox1 {
+	background:#54b9f8;
+	color:#111;
+	padding: 25px;
+	position: absolute;
+	float: right;
+	bottom: 0;
+	top: 425px; 
+	left: 800px;
+	width: 450px;
+}
