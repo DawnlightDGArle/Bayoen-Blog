@@ -1,6 +1,6 @@
 # Bayoen-Blog
 
-Captain's Log - 2021.09.03
+## Captain's Log - 2021.09.03
 
 Private Repository for my website. I started this website as a bit of a side hustle project I decided to start as a bit of a joke before I started university as a Computer Science
 Major. That "joke" of "I'm going to program my own website to prove you don't need shit like Wix or Squarespace to create a good looking functional website." ended up turning out
