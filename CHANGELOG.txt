@@ -1,1 +1,4 @@
-2021.09.05 - Updated site pages to be more optimised for mobile devices.
+2021.09.05 
+- Updated site pages to be more optimised for mobile devices.
+- Updated contact.html to add in "about" section information and elements
+- Created template.html and added to "Toolkit" folder in GitHub repository
