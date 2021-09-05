@@ -8,7 +8,7 @@
 .imagealign1 {
 	position: absolute;
 	float: right;
-	top: 375px;
+	top: 475px;
 	left: 760px;
 }
 
@@ -38,7 +38,7 @@
 	position: absolute;
 	float: right;
 	bottom: 0;
-	top: 825px; 
+	top: 900px; 
 	left: 835px;
 	z-index: 1;
 	visibility: show;"
@@ -50,7 +50,6 @@
 	padding: 25px;
 	position: absolute;
 	float: right;
-	bottom: 0;
 	top: 425px; 
 	left: 800px;
 	width: 450px;
