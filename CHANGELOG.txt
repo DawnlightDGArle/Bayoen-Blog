@@ -20,3 +20,8 @@
 2021.09.08
 - Added error.html, error.css and .htaccess files to root of website directory
 - Added custom 404 error page for blog
+
+2021.09.09
+- Cleaned up error.html and error.css to display 404 error page better
+- Reorganised website directory/repository to be easier to find files
+- Updated all current HTML files in repository to reflect page linkage changes due to reorganisation

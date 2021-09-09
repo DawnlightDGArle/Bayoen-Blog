@@ -30,6 +30,12 @@
 	top: 790px;
 }
 
+#iconalign1 {
+	position: relative;
+	left: 25px;
+	top: 35px;
+}
+
 #locatortext {
 	margin: 10px;
 }
@@ -53,4 +59,19 @@
 	top: 425px; 
 	left: 800px;
 	width: 450px;
+}
+
+#abouttext {
+	background:#54b9f8;
+	color:#F0FFFF;
+	padding: 25px;
+	position: relative;
+	top: -175px;
+	left: 250px;
+	width: 550px;
+	text-shadow: -1px 1px 0 #037CC8,
+				 1px 1px 0 #037CC8,
+				 1px -1px 0 #037CC8,
+				 -1px -1px 0 #037CC8,
+				 2px 2px 5px black;
 }
