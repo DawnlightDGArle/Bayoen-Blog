@@ -25,3 +25,8 @@
 - Cleaned up error.html and error.css to display 404 error page better
 - Reorganised website directory/repository to be easier to find files
 - Updated all current HTML files in repository to reflect page linkage changes due to reorganisation
+
+2021.09.11
+- Created main.js for site loading animations, edited to include initialise function for loading animations
+- Edited main.css to include new main class for loading animations
+- Edited all HTML files to call upon new main class via section and utilise main.js for loading animations
