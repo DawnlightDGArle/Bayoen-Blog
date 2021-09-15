@@ -30,3 +30,21 @@
 - Created main.js for site loading animations, edited to include initialise function for loading animations
 - Edited main.css to include new main class for loading animations
 - Edited all HTML files to call upon new main class via section and utilise main.js for loading animations
+
+2021.09.12
+- Added 'Blog-Screenshots' branch to Bayoe~n Blog GitHub repository for Markdown files
+- Changed README.md in GitHub repository to include more information about the Blog project including screenshots,
+languages used and image captions and made some additional minor grammatical and wording changes
+- Started fixing image alignment issue in games.html for mobile devices
+
+2021.09.13
+- Added temporary image alignment fix to image element in games.html
+- Changed 'imagealign1' class to change position from absolute to relative and changed image pixel positioning
+- Changed 'locator1' class to change credit text position from absolute to relative and changed pixel positioning
+
+2021.09.14
+- Added alt text to images on website for improved site accessibility
+- Changed 'textbox1' position to relative from absolute, changed pixel positioning, added min and max width for responsive web design
+- Set images in dramacdposter.html and puyodaplush.html to have a width of 500px
+- Updated subheaders in DramaCD.html to fix weird graohical errors with header lettering
+- Changed 'imagealign2', 'imagealign3' and 'imagealign4' to 'subalign1', 'subalign2' and 'subalign3' in imagealign.css

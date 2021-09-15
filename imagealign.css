@@ -6,28 +6,36 @@
 }
 
 .imagealign1 {
-	position: absolute;
+	position: relative;
 	float: right;
-	top: 475px;
-	left: 760px;
+	top: -1550px;
+	right: 40px;
+	max-width: 100%;
+	height: auto;
 }
 
-.imagealign2 {
-	position: absolute;
-	float: right;
+.subalign1 {
+	position: relative;
+	float: left;
 	top: 375px;
+	max-width: 100%;
+	height: auto;
 }
 
-.imagealign3 {
-	position: absolute;
-	float: right;
+.subalign2 {
+	position: relative;
+	float: left;
 	top: 590px;
+	max-width: 100%;
+	height: auto;
 }
 
-.imagealign4 {
-	position: absolute;
-	float: right;
+.subalign3 {
+	position: relative;
+	float: left;
 	top: 790px;
+	max-width: 100%;
+	height: auto;
 }
 
 #iconalign1 {
@@ -41,11 +49,10 @@
 }
 
 #locator1 {
-	position: absolute;
+	position: relative;
 	float: right;
-	bottom: 0;
-	top: 900px; 
-	left: 835px;
+	bottom: 1125px;
+	right: -200px;
 	z-index: 1;
 	visibility: show;"
 }
@@ -54,11 +61,11 @@
 	background:#54b9f8;
 	color:#111;
 	padding: 25px;
-	position: absolute;
-	float: right;
-	top: 425px; 
-	left: 800px;
-	width: 450px;
+	position: relative;
+	top: -950px; 
+	left: 550px;
+	min-width: 150px;
+	max-width: 500px;
 }
 
 #abouttext {
