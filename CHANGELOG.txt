@@ -1,3 +1,65 @@
+2021.09.17
+- Added section in ul for Nendoroid Arle and Carbuncle in Figures.html
+- Added ul in Books.html for Very! Puyo Puyo manga
+- Added image file to Books.html
+- Added 'imnagealignalt1' class to imagealign.css
+- Alphabetised and organised classes in imagealign.css
+- Added border and min width to image file in Books.html
+- Added 2021 Puyo Puyo Lying Down plush set to ul in page2.html
+
+2021.09.16
+- Renamed error.html to 404.html
+- Tested site for first time on Netlify website hosting services
+	- Added to website development Trello board possible bug with contact-form-process.php where php file opens instead of executes process
+	- Updated .htaccess file to reroute 404 errors to 404.html from error.html due to file name change
+- Edited 'imgwrap' class in imagealign.css to use padding instead of margin
+- Edited 'locator1' class in imagealign.css to shift top positioning by 10px
+
+2021.09.15
+- Added 'imgwrap' class to imagealign.css
+- Used 'imgwrap' class to adjust image element positioning and create text wrap on mobile devices in games.html
+- Added in additional information text to games.html
+
+2021.09.14
+- Added alt text to images on website for improved site accessibility
+- Changed 'textbox1' position to relative from absolute, changed pixel positioning, added min and max width for responsive web design
+- Set images in dramacdposter.html and puyodaplush.html to have a width of 500px
+- Updated subheaders in DramaCD.html to fix weird graohical errors with header lettering
+- Changed 'imagealign2', 'imagealign3' and 'imagealign4' to 'subalign1', 'subalign2' and 'subalign3' in imagealign.css
+
+2021.09.13
+- Added temporary image alignment fix to image element in games.html
+- Changed 'imagealign1' class to change position from absolute to relative and changed image pixel positioning
+- Changed 'locator1' class to change credit text position from absolute to relative and changed pixel positioning
+
+2021.09.12
+- Added 'Blog-Screenshots' branch to Bayoe~n Blog GitHub repository for Markdown files
+- Changed README.md in GitHub repository to include more information about the Blog project including screenshots,
+languages used and image captions and made some additional minor grammatical and wording changes
+- Started fixing image alignment issue in games.html for mobile devices
+
+2021.09.11
+- Created main.js for site loading animations, edited to include initialise function for loading animations
+- Edited main.css to include new main class for loading animations
+- Edited all HTML files to call upon new main class via section and utilise main.js for loading animations
+
+2021.09.09
+- Cleaned up error.html and error.css to display 404 error page better
+- Reorganised website directory/repository to be easier to find files
+- Updated all current HTML files in repository to reflect page linkage changes due to reorganisation
+
+2021.09.08
+- Added error.html, error.css and .htaccess files to root of website directory
+- Added custom 404 error page for blog
+
+2021.09.07
+- Updated misc.html to add in "Puyo Puyo Chronicle Advertising Poster" to "SEGA Era" list
+
+2021.09.05 
+- Updated site pages to be more optimised for mobile devices.
+- Updated contact.html to add in "about" section information and elements
+- Created template.html and added to "Toolkit" folder in GitHub repository
+
 2021.08.02-2021.09.04
 - Created index.html, page2.html, Figures.html, DramaCD.html, Misc.html, Books.html, contact.html as main HTML files
 - Created main.css, imagealign.css and contact-form.css as main CSS files
@@ -8,43 +70,3 @@
 - Added gradient body and gradient header to website via main.css
 - Added navigation menu to website via main.css
 - Imported site logos and page headers via HTML5
-
-2021.09.05 
-- Updated site pages to be more optimised for mobile devices.
-- Updated contact.html to add in "about" section information and elements
-- Created template.html and added to "Toolkit" folder in GitHub repository
-
-2021.09.07
-- Updated misc.html to add in "Puyo Puyo Chronicle Advertising Poster" to "SEGA Era" list
-
-2021.09.08
-- Added error.html, error.css and .htaccess files to root of website directory
-- Added custom 404 error page for blog
-
-2021.09.09
-- Cleaned up error.html and error.css to display 404 error page better
-- Reorganised website directory/repository to be easier to find files
-- Updated all current HTML files in repository to reflect page linkage changes due to reorganisation
-
-2021.09.11
-- Created main.js for site loading animations, edited to include initialise function for loading animations
-- Edited main.css to include new main class for loading animations
-- Edited all HTML files to call upon new main class via section and utilise main.js for loading animations
-
-2021.09.12
-- Added 'Blog-Screenshots' branch to Bayoe~n Blog GitHub repository for Markdown files
-- Changed README.md in GitHub repository to include more information about the Blog project including screenshots,
-languages used and image captions and made some additional minor grammatical and wording changes
-- Started fixing image alignment issue in games.html for mobile devices
-
-2021.09.13
-- Added temporary image alignment fix to image element in games.html
-- Changed 'imagealign1' class to change position from absolute to relative and changed image pixel positioning
-- Changed 'locator1' class to change credit text position from absolute to relative and changed pixel positioning
-
-2021.09.14
-- Added alt text to images on website for improved site accessibility
-- Changed 'textbox1' position to relative from absolute, changed pixel positioning, added min and max width for responsive web design
-- Set images in dramacdposter.html and puyodaplush.html to have a width of 500px
-- Updated subheaders in DramaCD.html to fix weird graohical errors with header lettering
-- Changed 'imagealign2', 'imagealign3' and 'imagealign4' to 'subalign1', 'subalign2' and 'subalign3' in imagealign.css

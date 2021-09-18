@@ -1,3 +1,5 @@
+/* Primary Image and Banner Alignment Classes */
+
 .homebanner {
 	position: absolute;
 	float: right;
@@ -8,8 +10,17 @@
 .imagealign1 {
 	position: relative;
 	float: right;
-	top: -1550px;
-	right: 40px;
+	top: 25px;
+	right: 100px;
+	max-width: 100%;
+	height: auto;
+}
+
+.imagealignalt1 {
+	position: relative;
+	float: right;
+	top: -325px;
+	right: 50px;
 	max-width: 100%;
 	height: auto;
 }
@@ -38,10 +49,32 @@
 	height: auto;
 }
 
+/* Text, Text Wrap and Icon Alignment Classes */
+
+#abouttext {
+	background:#54b9f8;
+	color:#F0FFFF;
+	padding: 25px;
+	position: relative;
+	top: -175px;
+	left: 250px;
+	max-width: 550px;
+	text-shadow: -1px 1px 0 #037CC8,
+				 1px 1px 0 #037CC8,
+				 1px -1px 0 #037CC8,
+				 -1px -1px 0 #037CC8,
+				 2px 2px 5px black;
+}
+
 #iconalign1 {
 	position: relative;
 	left: 25px;
 	top: 35px;
+}
+
+#imgwrap {
+	float: right;
+	padding: 15px;
 }
 
 #locatortext {
@@ -51,10 +84,10 @@
 #locator1 {
 	position: relative;
 	float: right;
-	bottom: 1125px;
-	right: -200px;
+	top: 450px;
+	right: -140px;
 	z-index: 1;
-	visibility: show;"
+	visibility: show;
 }
 
 #textbox1 {
@@ -66,19 +99,4 @@
 	left: 550px;
 	min-width: 150px;
 	max-width: 500px;
-}
-
-#abouttext {
-	background:#54b9f8;
-	color:#F0FFFF;
-	padding: 25px;
-	position: relative;
-	top: -175px;
-	left: 250px;
-	width: 550px;
-	text-shadow: -1px 1px 0 #037CC8,
-				 1px 1px 0 #037CC8,
-				 1px -1px 0 #037CC8,
-				 -1px -1px 0 #037CC8,
-				 2px 2px 5px black;
 }
