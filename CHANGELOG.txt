@@ -1,3 +1,14 @@
+2021.09.19
+-Implemented fix for home page navigation sidebar display "bug" in index.html
+	- Changed position of 'homesidebar' and 'homebarlist' from absolute to relative
+	- Adjusted top and right position
+	- Added float: right to 'homesidebar' and 'homebarlist'
+- Optimised home page sidebar for mobile devices
+- Corrected misspelling of Bayoe~n Blog in contact.html
+
+2021.09.18
+- Added smooth scrolling to main.css
+
 2021.09.17
 - Added section in ul for Nendoroid Arle and Carbuncle in Figures.html
 - Added ul in Books.html for Very! Puyo Puyo manga

@@ -1,3 +1,9 @@
+/*SET UP*/
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: linear-gradient(to bottom, #87CEFA, #AFEEEE);
 	font-family: calibri;
@@ -7,11 +13,13 @@ body {
 	padding: 0;
 }
 
+/*OTHER FUNCTIONS*/
+
 .secondary {
 	background:#54b9f8;
 	color:#111;
 	padding: 25px;
-	width: 825px;
+	max-width: 750px;
 	margin: 10px;
 }	
 
@@ -57,11 +65,15 @@ body {
   top: 175px;
 }
 
+/*SIDEBAR NAVIGATION*/
+
 .homesidebar {
 	background:#54b9f8;
-	position: absolute;
-	top: 235px;
-	left: 1050px;
+	position: relative;
+	float: right;
+	top: 0px;
+	right: 125px;
+	max-width: 120px;
 	font-size: 18px;
 	color: #FFFFFF;
 	padding: 10px;
@@ -74,12 +86,15 @@ body {
 }
 
 #homebarlist {
-	position: absolute;
-	top: 280px;
-	left: 990px;
+	position: relative;
+	float: right;
+	top: 50px;
+	right: -100px;
 	padding: 5px;
 	font-size: 16px;
 }
+
+/*TEXT AND LIST STYLING*/
 
 h1, h3, h4 {
 	color: black;
