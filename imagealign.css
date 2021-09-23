@@ -97,5 +97,16 @@
 	top: -950px; 
 	left: 550px;
 	min-width: 150px;
+	max-width: 450px;
+}
+
+#textboxalt {
+	background: #54b9f8;
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -675px;
+	left: 550px;
+	min-width: 150px;
 	max-width: 500px;
 }

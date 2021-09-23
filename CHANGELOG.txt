@@ -1,3 +1,28 @@
+2021.09.22
+- Investigated and identified viewport issues on mobile devices with puyochronposter.html and
+dramacdposter.html
+	- Added as low priority issue on Trello board
+- Commented out "About The Bayoe~n Blog" text in index.html (possibly temporary)
+- Added in new site notice regarding identified viewport issues on some pages for mobile users
+- Affected pages identified:
+	- index.html		- DramaCD.html* 		- puyochronposter.html
+	- contact.html		- Figures.html*			- dramacdposter.html
+	- page2.html*		- Games.html*
+	- Books.html*		- Misc.html*
+
+* These pages need their text sizes adjusted just for mobile devices as part of responsive web design
+
+2021.09.21
+- Edited template.html to better represent a template for a new sub page
+- Created puyochronposter.html
+	- Added to Sub Pages directory
+	- Created puyochronpostertext.png and added img src to corresponding html file
+- Tested new file and ensured that page linkage works and correct assets are loaded in
+- Added puyochronpostertext.png to html file
+- Edited index.html and Misc.html to include linkage to puyochronposter.html
+- Added alt text to image in puyochronposter.html
+- Added textboxalt class to imagealign.css
+
 2021.09.19
 -Implemented fix for home page navigation sidebar display "bug" in index.html
 	- Changed position of 'homesidebar' and 'homebarlist' from absolute to relative
