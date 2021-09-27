@@ -10,6 +10,6 @@ Project End Date:
 
 ## Screenshots of Project
 
-![Blog Site Screenshot](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/87738d58dea50a910f9aaaf90a2c4fe47654bbe5/WebsiteScreenshot.png?raw=true "Home Page")
+![Blog Site Screenshot](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/3f08817895a0a965db811ea15e976ff4ef156b58/WebsiteScreenshot.png?raw=true "Home Page")
 
 The current look of the top half of the home page of the site. Looks a little plain for now, but does include some cool CSS fade in animations and will include other features at a later date!
