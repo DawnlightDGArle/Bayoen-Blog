@@ -1,3 +1,20 @@
+2021.09.26
+- Added in new class 'box' in main.css
+- Commented out background, position, float, top and right in 'homesidebar' class in main.css
+- Moved commented out features into 'box' class and added outline and outline-offset to 'box' class
+- Changed outline colour to Light Cyan
+- Adjusted top position and line height in 'homebarlist' class in main.css
+- Updated index.html to use new div class 'box'
+- Further investigated and updated project Trello board with scaling issue bugs on mobile devices
+- Added outline and outline-offset to 'textbox1' and 'textboxalt'
+- Removed HTML "content" feature from all HTML files due to it being an obsolete/deprecated feature
+- Amended all HTML files to use <html lang="en"> over <html> for improved site accessibility for screenreaders
+
+2021.09.23
+- Adjusted max-width from 450px to 350px in 'textbox1' and 'textboxalt' classes in imagealign.css
+- Deployed changes to site on Netlify and tested site on mobile to ensure correct fix
+- Brainstormed possible fixes to bugs on website
+
 2021.09.22
 - Investigated and identified viewport issues on mobile devices with puyochronposter.html and
 dramacdposter.html

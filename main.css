@@ -68,31 +68,42 @@ body {
 
 /*SIDEBAR NAVIGATION*/
 
-.homesidebar {
-	background:#54b9f8;
+.box {
+	background: #54b9f8;
 	position: relative;
 	float: right;
 	top: 0px;
 	right: 125px;
+	max-width: 155px;
+	outline: 2px solid #E0FFFF;
+	outline-offset: -6px;
+}
+
+.homesidebar {
+	/*background: #54b9f8;
+	position: relative;
+	float: right;
+	right: 125px;*/
 	max-width: 120px;
 	font-size: 18px;
 	color: #FFFFFF;
 	padding: 10px;
-	margin: 10px 0px 0px 0px;
-	text-shadow: -1px 1px 0 #037CC8,
-				  1px 1px 0 #037CC8,
-				 1px -1px 0 #037CC8,
-				-1px -1px 0 #037CC8,
+	margin: 7px 0px 0px 0px;
+	text-shadow: -1px 1px 0 #037CC8, 
+				1px 1px 0 #037CC8, 
+				1px -1px 0 #037CC8, 
+				-1px -1px 0 #037CC8, 
 				1px 1px 5px black;
 }
 
 #homebarlist {
 	position: relative;
 	float: right;
-	top: 50px;
+	top: 40px;
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
+	line-height: 1.25;
 }
 
 /*TEXT AND LIST STYLING*/
