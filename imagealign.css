@@ -64,6 +64,10 @@
 				 1px -1px 0 #037CC8,
 				 -1px -1px 0 #037CC8,
 				 2px 2px 5px black;
+
+	 box-shadow: 1rem 1rem 0 0 #00ACE6;
+	 outline: 2px solid #E0FFFF;
+	 outline-offset: -6px;
 }
 
 #iconalign1 {

@@ -10,7 +10,7 @@ body {
 	font-size: 18px;
 	color:#222;
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
 
 /*OTHER FUNCTIONS*/
@@ -22,6 +22,8 @@ body {
 	min-width: 300px;
 	max-width: 750px;
 	margin: 10px;
+	outline: 2px solid #E0FFFF;
+	outline-offset: -6px;
 }	
 
 .main {
@@ -58,6 +60,7 @@ body {
   color: #483D8B;
   font-size: 20px;
   font-weight: bold;
+  text-size-adjust: 110%;
   padding: 3px 3px;
 }
 
@@ -80,12 +83,9 @@ body {
 }
 
 .homesidebar {
-	/*background: #54b9f8;
-	position: relative;
-	float: right;
-	right: 125px;*/
 	max-width: 120px;
 	font-size: 18px;
+	text-size-adjust: 150%;
 	color: #FFFFFF;
 	padding: 10px;
 	margin: 7px 0px 0px 0px;
@@ -103,6 +103,7 @@ body {
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
+	text-size-adjust: 150%;
 	line-height: 1.25;
 }
 

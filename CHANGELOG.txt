@@ -1,3 +1,32 @@
+2021.10.03
+- Added "style="border: 5px solid #E0FFFF"" to image elements in puyochronposter.html, dramacdposter.html, puyodaplush.html and page2.html
+- Added additional methods of contact under Contact Us section of contact.html
+- Added "box-shadow: 1rem 1rem 0 0 #00ACE6", "outline: 2px solid #E0FFFF" and "outline-offset: -6px" to 'abouttext' id in contact.html
+- Added further tab nabbing protections to external links on website
+
+2021.10.02
+- Added experimental CSS feature 'text-size-adjust' to 'homesidebar' and 'homebarlist' id and class in main.css
+- Added 'outline' and 'outline-offset' to 'secondary' class in main.css
+
+2021.10.01
+- Created Twitter page for blog project (@BayoenBlogger)
+	- brainstormed teaser trailer ideas for Twitter page
+- Created Community Discord server for blog project to begin allowing community contributions
+- Identified compatibility issues with how site displays on iOS with certain default device text display sizes
+	- Currently unknown if issue is fixable, site seems to display fine when display font was made slightly larger, likely issue ith iOS itself
+- Identified multiple scaling issues with website on mobile
+	- "Latest Additions" section does not scale up with rest of text/elements in index.html
+	- Contact form in contact.html does not adjust scaling accurately
+	- image in Books.html overlaps and obscures part of list
+	- image enlargment cuts off screen, textbox remaind in front of image and obscures part of enlarged image in puyochronposter.html
+	- Potential text scaling issues in puyochronposter.html and dramacdposter.html
+
+2021.09.27
+- Added function enlargeImg() and function resetImg() to main.js
+- Added "onclick = "enlargeImg(this)"" and "ondblclick = "resetImg(this)"" to image element in puyochronposter.html
+- Added in new bug issue to project Trello board
+	- Discovered image enlargment cuts off screen, textbox remains in front of image and obscures part of enlarged image
+
 2021.09.26
 - Added in new class 'box' in main.css
 - Commented out background, position, float, top and right in 'homesidebar' class in main.css
