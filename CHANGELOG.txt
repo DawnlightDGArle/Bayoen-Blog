@@ -1,3 +1,9 @@
+2021.10.04
+- Changed all navigation bar classes from div to nav tags in all HTML pages
+- Changed all h6 copyright info sections to include footer tags in all HTML pages
+- Added custom gradient scrollbar for blog in main.css
+- Commented in heart shape in main.css, currently trying to find best use for this
+
 2021.10.03
 - Added "style="border: 5px solid #E0FFFF"" to image elements in puyochronposter.html, dramacdposter.html, puyodaplush.html and page2.html
 - Added additional methods of contact under Contact Us section of contact.html
