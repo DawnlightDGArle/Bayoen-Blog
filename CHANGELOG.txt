@@ -1,3 +1,29 @@
+2021.10.09
+- Mapped out site colour schemes: Dark Slate Blue, Star Command Blue, Cyan Process, Maya Blue, Light Sky Blue, Light Blue and Light Cyan
+
+2021.10.08
+- Removed div class 'box' from main.css and index.html
+- Merged css properties of 'box' class with 'homesidebar' class
+- Tested out CSS flexbox/grid for "Latest Features" text issue fix - Media Queries as well
+	- Grid might have worked, but could not quite figure out how to move the grid to the preferred location
+	- Ended up scrapping both ideas due to choice of sticking with experimental CSS property, text-size-adjust and finding issues
+with Chrome Android itself and how it scales text
+- Continued translating current blog pages into Spanish
+
+2021.10.07
+- Added "pagina.html" to "ESP Site" sub directory
+- Added href linkage via lang-toggle between index.html and pagina.html
+- Created new assets for Spanish version of blog
+
+2021.10.06
+- Reorganised website repository
+	- Added "ENG Assets" and "SPA Assets" folders to "Website Assets" folder
+	- Rearranged files in "Website Assets" folder
+- Added "ESP Site" folder to repository
+- Added "libros.html" to "ESP Site" folder
+- Added 'lang-toggle' div id to main.css and all HTML files except index.html
+- Added 'lang-toggle1' div id to main.css and index.html
+
 2021.10.04
 - Changed all navigation bar classes from div to nav tags in all HTML pages
 - Changed all h6 copyright info sections to include footer tags in all HTML pages

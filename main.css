@@ -85,23 +85,38 @@ body {
   top: 175px;
 }
 
+#lang-toggle {
+	position: relative;
+	float: right;
+	padding: 10px;
+	top: -240px;
+
+}
+
+#lang-toggle1 {
+	position: relative;
+	float: right;
+	padding: 10px;
+	top: -240px;
+	right: -440px;
+
+}
+
 /*SIDEBAR NAVIGATION*/
 
-.box {
+.homesidebar {
 	background: #54b9f8;
 	position: relative;
 	float: right;
 	top: 0px;
-	right: 125px;
+	right: 130px;
 	max-width: 155px;
 	outline: 2px solid #E0FFFF;
 	outline-offset: -6px;
-}
 
-.homesidebar {
-	max-width: 120px;
 	font-size: 18px;
-	text-size-adjust: 135%;
+	width: 120px;
+	text-align: center;
 	color: #FFFFFF;
 	padding: 10px;
 	margin: 7px 0px 0px 0px;
@@ -110,6 +125,7 @@ body {
 				1px -1px 0 #037CC8, 
 				-1px -1px 0 #037CC8, 
 				1px 1px 5px black;
+	text-size-adjust: 135%;
 }
 
 #homebarlist {
@@ -119,7 +135,17 @@ body {
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
+	line-height: 1.25;
 	text-size-adjust: 135%;
+}
+
+#homebarlistesp {
+	position: relative;
+	float: right;
+	top: 60px;
+	right: -100px;
+	padding: 5px;
+	font-size: 16px;
 	line-height: 1.25;
 }
 
