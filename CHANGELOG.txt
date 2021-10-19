@@ -1,3 +1,74 @@
+2021.10.18
+- Added CSS flexboxes to index.html
+- Added FAQ section to blog
+- Added various information to flexboxes
+- Added CSS classes for heart shape to main.css, index.html
+- Created new FAQ section render
+- Reorganised repository into local GitHub repository
+
+2021.10.17
+- Added temporary spanish to pagina.html
+	- Needs proofreading to ensure accuracy
+- Set z-index of 'textbox1' and 'textboxalt' ids to -1
+	- Fixes textbox clipping over enlarged image bug
+
+2021.10.15
+- Finished translating spanish version of Books page
+
+2021.10.14
+- Added sub directory "Merch Photos" to "Website Assets" sub directory
+- Rerouted photos directory to match new directory path in puyochronposter.html, dramacdposter.html and puyodaplush.html
+- Added image enlargement feature to images in dramacdposter.html and puyodaplush.html
+
+2021.10.12
+- Cleaned up code in all files in repository
+	- Removed commented out/unused code and moved into separate scrapped code file
+- Fixed forced side scroll issue in games.html
+	- Changed section class name from 'main' to 'aboutus'
+	- Added 'aboutus' class to main.css with property "max-width: 1250px"
+- Changed transform time from 0.25s to 0.35s in function resetImg and enlargeImg in main.js
+- Fixed issue with JavaScript file not working in pagina.html
+	- Discovered missing section tags essential to making JS file work
+
+2021.10.11
+- Changed outline style from solid to dashed in 'textbox1' and 'textboxalt' div ids in imagealign.css
+- Updated "About Me" information in contact.html
+- Added information to puyochronposter.html
+- Added ability for image to shift left and right upon enlargement in main.js
+- Added img.style.position and img.style.left properties to enlargeImg and resetImg functions
+
+2021.10.09
+- Mapped out site colour schemes: Dark Slate Blue, Star Command Blue, Cyan Process, Maya Blue, Light Sky Blue, Light Blue and Light Cyan
+
+2021.10.08
+- Removed div class 'box' from main.css and index.html
+- Merged css properties of 'box' class with 'homesidebar' class
+- Tested out CSS flexbox/grid for "Latest Features" text issue fix - Media Queries as well
+	- Grid might have worked, but could not quite figure out how to move the grid to the preferred location
+	- Ended up scrapping both ideas due to choice of sticking with experimental CSS property, text-size-adjust and finding issues
+with Chrome Android itself and how it scales text
+- Continued translating current blog pages into Spanish
+
+2021.10.07
+- Added "pagina.html" to "ESP Site" sub directory
+- Added href linkage via lang-toggle between index.html and pagina.html
+- Created new assets for Spanish version of blog
+
+2021.10.06
+- Reorganised website repository
+	- Added "ENG Assets" and "SPA Assets" folders to "Website Assets" folder
+	- Rearranged files in "Website Assets" folder
+- Added "ESP Site" folder to repository
+- Added "libros.html" to "ESP Site" folder
+- Added 'lang-toggle' div id to main.css and all HTML files except index.html
+- Added 'lang-toggle1' div id to main.css and index.html
+
+2021.10.04
+- Changed all navigation bar classes from div to nav tags in all HTML pages
+- Changed all h6 copyright info sections to include footer tags in all HTML pages
+- Added custom gradient scrollbar for blog in main.css
+- Commented in heart shape in main.css, currently trying to find best use for this
+
 2021.10.03
 - Added "style="border: 5px solid #E0FFFF"" to image elements in puyochronposter.html, dramacdposter.html, puyodaplush.html and page2.html
 - Added additional methods of contact under Contact Us section of contact.html

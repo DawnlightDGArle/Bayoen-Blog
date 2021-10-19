@@ -13,6 +13,22 @@ body {
 	padding: 0
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+	height: auto;
+}
+
+::-webkit-scrollbar-track {
+	background: #a7d4d4;
+	border-radius: 10px;
+	margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(#483D8B, #037CC8);
+	border-radius: 10px;
+}
+
 /*OTHER FUNCTIONS*/
 
 .secondary {
@@ -30,6 +46,10 @@ body {
 	opacity: 0;
 	display: none;
 	transition: opacity 1s ease-in;
+}
+
+.aboutus {
+	max-width: 1250px;
 }
 
 #textbox {
@@ -69,23 +89,38 @@ body {
   top: 175px;
 }
 
+#lang-toggle {
+	position: relative;
+	float: right;
+	padding: 10px;
+	top: -240px;
+
+}
+
+#lang-toggle1 {
+	position: relative;
+	float: right;
+	padding: 10px;
+	top: -240px;
+	right: -440px;
+
+}
+
 /*SIDEBAR NAVIGATION*/
 
-.box {
+.homesidebar {
 	background: #54b9f8;
 	position: relative;
 	float: right;
 	top: 0px;
-	right: 125px;
+	right: 130px;
 	max-width: 155px;
 	outline: 2px solid #E0FFFF;
 	outline-offset: -6px;
-}
 
-.homesidebar {
-	max-width: 120px;
 	font-size: 18px;
-	text-size-adjust: 150%;
+	width: 120px;
+	text-align: center;
 	color: #FFFFFF;
 	padding: 10px;
 	margin: 7px 0px 0px 0px;
@@ -94,6 +129,7 @@ body {
 				1px -1px 0 #037CC8, 
 				-1px -1px 0 #037CC8, 
 				1px 1px 5px black;
+	text-size-adjust: 135%;
 }
 
 #homebarlist {
@@ -103,9 +139,70 @@ body {
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
-	text-size-adjust: 150%;
+	line-height: 1.25;
+	text-size-adjust: 135%;
+}
+
+#homebarlistesp {
+	position: relative;
+	float: right;
+	top: 60px;
+	right: -100px;
+	padding: 5px;
+	font-size: 16px;
 	line-height: 1.25;
 }
+
+/*FLEXBOX*/
+
+#faq {
+	display: flex;
+	height: 75%;
+    justify-content: center;
+}
+
+#faq1 {
+	text-align: center;
+	color:black;
+    margin: 10px;
+	padding: 10px;
+    background-color: #54b9f8;
+    width: 25%;
+    height: 425px;
+    outline: 2px dashed #F0F8FF;
+    outline-offset: -4px;
+}
+
+.heart {
+    margin: auto;
+    background-color: #AFEEEE;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+  }
+ 
+  .heart::after {
+    background-color: #AFEEEE;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+ 
+  .heart::before {
+    content:"";
+    background-color: #AFEEEE;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
 
 /*TEXT AND LIST STYLING*/
 

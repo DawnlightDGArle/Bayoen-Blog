@@ -8,13 +8,17 @@ function init() {
 }
 
 function enlargeImg(img) {
-	img.style.transform = "scale(1.5)";
-	img.style.transition = "transform 0.25s ease";
+	img.style.transform = "scale(1.25)";
+	img.style.transition = "transform 0.35s ease";
+	img.style.position ="relative";
+    img.style.left = "200px";
 }
 
 function resetImg(img) {
 	img.style.transform = "scale(1)";
-	img.style.transition = "transform 0.25s ease";
+	img.style.transition = "transform 0.35s ease";
+	img.style.position ="relative";
+    img.style.left = "0px";
 }
 
 init();	
