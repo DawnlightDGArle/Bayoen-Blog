@@ -94,6 +94,7 @@ body {
 	float: right;
 	padding: 10px;
 	top: -240px;
+	right: 25px;
 
 }
 
@@ -153,12 +154,13 @@ body {
 	line-height: 1.25;
 }
 
-/*FLEXBOX
+/*FLEXBOX*/
 
 #faq {
 	display: flex;
 	height: 75%;
     justify-content: center;
+	z-index: 1;
 }
 
 #faq1 {
@@ -171,9 +173,11 @@ body {
     height: 425px;
     outline: 2px dashed #F0F8FF;
     outline-offset: -4px;
+	z-index: 1;
 }
 
-.heart {
+
+/*.heart {
     margin: auto;
     background-color: #AFEEEE;
     height: 50px;
@@ -211,4 +215,10 @@ h1, h3, h4 {
 	text-shadow: 2px 2px 5px white;
 }
 
-ul { list-style: circle;}
+ul { list-style: circle;
+	list-style-position: inside;
+	text-align:left;
+}
+
+ol {list-style-position: inside;
+	text-align: left;}

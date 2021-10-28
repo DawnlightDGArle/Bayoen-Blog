@@ -134,3 +134,29 @@
 	outline-offset: -6px;
 	z-index: -1;
 }
+
+#carbalign {
+	position: relative;
+	z-index: 1;
+	width: 100px;
+	top: -110px;
+	right: -70px;
+}
+
+#satanalign {
+	position: relative;
+	z-index: 1;
+	width: 150px;
+	top: -220px;
+	left: 1120px;
+}
+
+@media only screen and (max-width: 720vw) {
+	#carbalign {
+		left: 5%;
+	}
+
+	#satanalign {
+		left: 85%;
+	}
+}

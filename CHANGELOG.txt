@@ -1,3 +1,26 @@
+2021.10.27
+- Updated contact form to use less code in contact.html and contact-form.css
+
+2021.10.26
+- Adjusted positioning of language toggle menu
+- Planned out future site features using Figma
+
+2021.10.23
+- Readded in FAQ section to index.html with new image assets
+- Added bug to Trello board
+	- Image assets from FAQ flexboxes misalign and cause force scroll on mobile
+- Added media query to imagealign.css to fix bug
+- Removed heart div id and all styling from code and blog
+
+2021.10.22
+- Added 'arle25thfigure.html' to Sub Pages directory
+- Added 'textbox2' id to imagealign.css
+- Created new assets for English blog
+- Added assets to Merch Photos sub directory
+- Removed Python/Django support from blog
+- Removed contact-form-process.php from repository
+- Changed form action in contact.html to working alternative
+
 2021.10.18
 - Added CSS flexboxes to index.html
 - Added FAQ section to blog
