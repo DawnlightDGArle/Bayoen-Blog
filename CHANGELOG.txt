@@ -1,3 +1,25 @@
+2021.11.03
+- Added 'figuritas.html', 'articulos.html' and 'juego.html' to ESP Site sub directory
+- Edited 'Figures.html', 'Misc.html' and 'Games.html' to link to respective spanish pages via language toggle
+- Finished translation for 'audio.html'
+
+2021.11.01
+- Added 'Database' sub directory to site repository
+	- Moved 'scans-database.html' and 'scans.css' from 'Toolkit' to 'Database'
+- Officially started development on archival database for blog
+- Translated audio CD page into spanish 
+	- Added 'audio.html' tp ESP Site sub directory
+	- Added new assets to SPA Assets sub directory
+	- Linked english and spanish pages for audio CDs together
+	- Pages still in need of translation:
+		- Figures.html		- contact.html
+		- Misc.html			- Games.html
+
+2021.10.30
+- Added media queries for flexbox to main.css
+- Improved overall responsiveness of index.html
+	- Entire page is responsive minus language toggle
+
 2021.10.27
 - Updated contact form to use less code in contact.html and contact-form.css
 

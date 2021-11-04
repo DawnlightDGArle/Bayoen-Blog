@@ -2,6 +2,7 @@
 
 html {
 	scroll-behavior: smooth;
+	text-size-adjust: 135%;
 }
 
 body {
@@ -94,17 +95,15 @@ body {
 	float: right;
 	padding: 10px;
 	top: -240px;
-	right: 25px;
-
+	margin-right: 25px;
 }
 
 #lang-toggle1 {
-	position: relative;
+	position: absolute;
 	float: right;
 	padding: 10px;
-	top: -240px;
-	right: -440px;
-
+	top: -5px;
+	right: 20px;
 }
 
 /*SIDEBAR NAVIGATION*/
@@ -136,7 +135,7 @@ body {
 #homebarlist {
 	position: relative;
 	float: right;
-	top: 40px;
+	top: 60px;
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
@@ -152,6 +151,7 @@ body {
 	padding: 5px;
 	font-size: 16px;
 	line-height: 1.25;
+	text-size-adjust: 135%;
 }
 
 /*FLEXBOX*/
@@ -176,36 +176,14 @@ body {
 	z-index: 1;
 }
 
+/*MEDIA QUERIES*/
 
-/*.heart {
-    margin: auto;
-    background-color: #AFEEEE;
-    height: 50px;
-    width: 50px;
-    transform: rotate(-45deg);
-  }
- 
-  .heart::after {
-    background-color: #AFEEEE;
-    content: "";
-    border-radius: 50%;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 0px;
-    left: 25px;
-  }
- 
-  .heart::before {
-    content:"";
-    background-color: #AFEEEE;
-    border-radius: 50%;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: -25px;
-    left: 0px;
-  }*/
+@media only screen and (max-width: 540vw) {
+	#faq1 {
+		height: auto;
+		text-size-adjust: 135%;
+	}	
+}
 
 
 /*TEXT AND LIST STYLING*/
@@ -215,10 +193,14 @@ h1, h3, h4 {
 	text-shadow: 2px 2px 5px white;
 }
 
-ul { list-style: circle;
+ul { 
+	list-style: circle;
 	list-style-position: inside;
 	text-align:left;
+	line-height: 1.25;
 }
 
-ol {list-style-position: inside;
-	text-align: left;}
+ol {
+	list-style-position: inside;
+	text-align: left;
+}
