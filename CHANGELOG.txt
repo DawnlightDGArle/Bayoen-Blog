@@ -1,3 +1,25 @@
+2021.11.26
+- Added and translated FAQ section to Spanish version of blog
+- Changed tab names of Spanish pages
+
+2021.11.25
+- Removed text decoration on navigation menu, language toggle and unordered lists
+
+2021.11.24
+- Made minor corrections to Spanish version of site
+- Created new assets for Spanish version of site
+- Added in CSS Grid features to Spanish version of site
+- Added responsiveness to images in main.css
+
+2021.11.22
+- Added new item to list in Misc.html
+- Changed items in "Latest Additions" sidebar in index.html
+- Added in CSS Grid features to main.css, Books.html, page2.html, Misc.html
+
+2021.11.15
+- Added Spanish translations for Drama CD Puyo Puyo Volume 5 Advertising Poster and Contact Us pages
+- Tested out CSS Grid listing format for site on codepen.io
+
 2021.11.03
 - Added 'figuritas.html', 'articulos.html' and 'juego.html' to ESP Site sub directory
 - Edited 'Figures.html', 'Misc.html' and 'Games.html' to link to respective spanish pages via language toggle

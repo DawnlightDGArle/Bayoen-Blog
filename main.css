@@ -14,6 +14,11 @@ body {
 	padding: 0
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+  }
+
 ::-webkit-scrollbar {
 	width: 10px;
 	height: auto;
@@ -83,6 +88,7 @@ body {
   font-weight: bold;
   text-size-adjust: 110%;
   padding: 3px 3px;
+  text-decoration: none;
 }
 
 .navhome {
@@ -98,12 +104,20 @@ body {
 	margin-right: 25px;
 }
 
+#lang-toggle a {
+	text-decoration: none;
+}
+
 #lang-toggle1 {
 	position: absolute;
 	float: right;
 	padding: 10px;
 	top: -5px;
 	right: 20px;
+}
+
+#lang-toggle1 a {
+	text-decoration: none;
 }
 
 /*SIDEBAR NAVIGATION*/
@@ -146,7 +160,7 @@ body {
 #homebarlistesp {
 	position: relative;
 	float: right;
-	top: 60px;
+	top: 90px;
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
@@ -176,6 +190,30 @@ body {
 	z-index: 1;
 }
 
+/*GRID*/
+
+.item1 {
+    grid-area: advert;
+    max-width: 450px;
+}
+
+.item2 {
+    grid-area: content;
+    max-width: 450px;
+}
+
+.gridcont {
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "advert"
+      "content";
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 540vw) {
@@ -184,6 +222,16 @@ body {
 		text-size-adjust: 135%;
 	}	
 }
+
+@media only screen and (min-width: 768px){
+    .gridcont{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+      grid-template-areas:
+        "advert content"
+        ;
+    }
+  }
 
 
 /*TEXT AND LIST STYLING*/
@@ -198,6 +246,10 @@ ul {
 	list-style-position: inside;
 	text-align:left;
 	line-height: 1.25;
+}
+
+ul a {
+	text-decoration: none;
 }
 
 ol {
