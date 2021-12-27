@@ -1,0 +1,103 @@
+/*WAVES SVG PLACEMENT*/
+.waves {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	bottom: -1575px;
+}
+
+.wavesalt {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 975px;
+}
+
+.wavesplush {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 300px;
+}
+
+.wavesaudio {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 675px;
+}
+
+.wavesfigures {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: -100px;
+}
+
+.wavesgames {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 1250px;
+}
+
+.wavesmerch1 {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 975px;
+}
+
+.wavesmerch2 {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 400px;
+}
+
+.wavesmerch3 {
+	aspect-ratio: 900/600;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	top: 1950px;
+}
+
+.footerwaves {
+	background-image: url('Website Assets/bbwavesfooter.svg');
+}

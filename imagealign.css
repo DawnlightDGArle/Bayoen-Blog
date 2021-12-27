@@ -49,6 +49,14 @@
 	height: auto;
 }
 
+.subalign4 {
+	position: relative;
+	float: left;
+	top: 990px;
+	max-width: 100%;
+	height: auto;
+}
+
 /* Text, Text Wrap and Icon Alignment IDs */
 
 #abouttext {
@@ -85,14 +93,6 @@
 	margin: 10px;
 }
 
-#locator1 {
-	position: relative;
-	float: right;
-	top: 450px;
-	right: -140px;
-	z-index: 1;
-}
-
 #textbox1 {
 	background:#54b9f8;
 	color:#111;
@@ -127,6 +127,20 @@
 	padding: 25px;
 	position: relative;
 	top: -475px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed #E0FFFF;
+	outline-offset: -6px;
+	z-index: -1;
+}
+
+#textbox3 {
+	background: #54b9f8;
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -2200px;
 	left: 550px;
 	min-width: 150px;
 	max-width: 350px;

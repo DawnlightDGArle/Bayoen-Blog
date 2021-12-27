@@ -1,3 +1,22 @@
+2021.12.22
+- Added in Skip navigation button for keyboard accessibility
+- Formatted code better
+- Added header and main tags to code for accessibility
+
+2021.12.19
+- Added in waves svgs to footers of English site
+- Created waves.css in root of directory
+- Changed images for Puyo DA! plush set page
+- Cleaned up site and site code
+
+2021.12.17
+- Cleaned up code to remove </br> due to <br> being self-closing
+- Reverted clean up efforts due to causing graphical errors
+- Edited caption in Games.html to be a figure caption
+- Removed 'locator1' from imagealign.css
+- Corrected spelling of COMPILE on Spanish site
+- Added information for SEGA Prize Arle and Carbuncle figure
+
 2021.11.26
 - Added and translated FAQ section to Spanish version of blog
 - Changed tab names of Spanish pages

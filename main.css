@@ -2,7 +2,7 @@
 
 html {
 	scroll-behavior: smooth;
-	text-size-adjust: 135%;
+	text-size-adjust: 145%;
 }
 
 body {
@@ -12,6 +12,10 @@ body {
 	color:#222;
 	margin: 0;
 	padding: 0
+}
+
+footer {
+	margin: 10px;
 }
 
 img {
@@ -93,7 +97,7 @@ img {
 
 .navhome {
   position: absolute;
-  top: 175px;
+  top: 155px;
 }
 
 #lang-toggle {
@@ -120,13 +124,29 @@ img {
 	text-decoration: none;
 }
 
+.skip-nav-link {
+	position: absolute;
+	background: #483D8B;
+	padding: 15px 15px;
+	border-radius: 5px;
+	transition: transform 325ms ease-in;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	transform: translateY(-150%);
+  }
+  
+  .skip-nav-link:focus {
+	transform: translateY(10%);
+  }
+
 /*SIDEBAR NAVIGATION*/
 
 .homesidebar {
 	background: #54b9f8;
 	position: relative;
 	float: right;
-	top: 0px;
+	top: -250px;
 	right: 130px;
 	max-width: 155px;
 	outline: 2px solid #E0FFFF;
@@ -149,7 +169,7 @@ img {
 #homebarlist {
 	position: relative;
 	float: right;
-	top: 60px;
+	top: -190px;
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
@@ -160,7 +180,7 @@ img {
 #homebarlistesp {
 	position: relative;
 	float: right;
-	top: 90px;
+	top: -170px;
 	right: -100px;
 	padding: 5px;
 	font-size: 16px;
@@ -220,7 +240,7 @@ img {
 	#faq1 {
 		height: auto;
 		text-size-adjust: 135%;
-	}	
+	}
 }
 
 @media only screen and (min-width: 768px){
@@ -232,6 +252,13 @@ img {
         ;
     }
   }
+
+@media only screen and (max-width: 768px) {
+	.secondary {
+		max-width: 300px;
+	}
+
+}
 
 
 /*TEXT AND LIST STYLING*/
@@ -255,4 +282,8 @@ ul a {
 ol {
 	list-style-position: inside;
 	text-align: left;
+}
+
+figcaption {
+	text-align: center;
 }
