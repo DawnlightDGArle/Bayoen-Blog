@@ -1,3 +1,28 @@
+2022.02.15
+- Fixed tab nabbing vulnerability with images and credit caption in games page
+- Added temporary image to Amitie and Carbuncle figure page
+
+2022.01.31
+- Added new page for Amitie and Carbuncle figure
+- Created new assets for blog
+
+2022.01.12
+- Fixed navigation menu to be more accessible to screen readers
+- Set darker colour for unvisited links to imrpove contrast accessibility
+- Changed padding of navigation to 2px instead of 3px
+
+2022.01.10
+- Added in new site notices and translated them to Spanish
+- Added in ability to skip to contact us section in contact pages
+- Edited pages for grammar/adding and removing things
+
+2022.01.05
+- Changed z-index of merch page svgs to -2
+
+2022.01.01
+- Added Arle's Adventure: Magic Jewels to games list
+- Fixed error with listing of Rihona Kato bromide in Home and Miscellaneous pages
+
 2021.12.22
 - Added in Skip navigation button for keyboard accessibility
 - Formatted code better

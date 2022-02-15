@@ -71,7 +71,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	z-index: -1;
+	z-index: -2;
 	position: absolute;
 	top: 975px;
 }
@@ -82,7 +82,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	z-index: -1;
+	z-index: -2;
 	position: absolute;
 	top: 400px;
 }
@@ -93,7 +93,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	z-index: -1;
+	z-index: -2;
 	position: absolute;
 	top: 1950px;
 }
