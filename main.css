@@ -294,10 +294,20 @@ img {
 		right: -170px;
 		width: 220px;
 	}
+	#homebarlistesp {
+		top: -400px;
+		right: -170px;
+		width: 220px;
+	}
 }
 
 @media only screen and (min-width: 425px) and (max-width:768px) {
 	#homebarlist {
+		top: -350px;
+		right: -300px;
+		width: 220px;
+	}
+	#homebarlistesp {
 		top: -350px;
 		right: -300px;
 		width: 220px;
