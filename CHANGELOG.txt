@@ -1,3 +1,8 @@
+2022.02.16
+- Added more mobile responsiveness to site by starting to add "width=device-width" to viewport and adding
+media queries to CSS documents
+- Adjusted index.html and Misc.html to be mobile responsive
+
 2022.02.15
 - Fixed tab nabbing vulnerability with images and credit caption in games page
 - Added temporary image to Amitie and Carbuncle figure page

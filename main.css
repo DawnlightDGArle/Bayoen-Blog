@@ -196,6 +196,7 @@ img {
 
 #faq {
 	display: flex;
+	flex-direction: row;
 	height: 75%;
     justify-content: center;
 	z-index: 1;
@@ -257,11 +258,50 @@ img {
     }
   }
 
+@media only screen and (max-width: 767px) {
+	.gridcont {
+		width: 150%;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.secondary {
 		max-width: 300px;
 	}
 
+	#faq {
+		flex-direction: column;
+	}
+
+	#faq1 {
+		width: 75%;
+	}
+
+	.headercolour {
+		width: 150%;
+	}
+
+	.homesidebar {
+		top: -400px;
+		right: -135px;
+	}
+
+}
+
+@media only screen and (min-width: 280px) and (max-width:424px) {
+	#homebarlist {
+		top: -400px;
+		right: -170px;
+		width: 220px;
+	}
+}
+
+@media only screen and (min-width: 425px) and (max-width:768px) {
+	#homebarlist {
+		top: -350px;
+		right: -300px;
+		width: 220px;
+	}
 }
 
 
