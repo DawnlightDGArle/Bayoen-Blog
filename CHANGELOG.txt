@@ -1,3 +1,7 @@
+2022.02.17
+- Continued adding more mobile responsiveness to all other English site pages
+- Adjusted svgs to adjust properly on all pages
+
 2022.02.16
 - Added more mobile responsiveness to site by starting to add "width=device-width" to viewport and adding
 media queries to CSS documents
