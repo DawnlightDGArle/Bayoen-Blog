@@ -1,3 +1,6 @@
+2022.02.18
+- Fixed textbox responsiveness on mobile for all merch pages
+
 2022.02.17
 - Continued adding more mobile responsiveness to all other English site pages
 - Adjusted svgs to adjust properly on all pages

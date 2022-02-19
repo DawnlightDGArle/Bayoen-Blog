@@ -189,6 +189,11 @@
 		top: -250px;
 		left: 70%;
 	}
+
+	#textbox1, #textbox2, #textbox3, #textboxalt {
+		top: 25px;
+		left: 10px;
+	}
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
@@ -199,6 +204,11 @@
 	#satanalign {
 		top: -250px;
 		left: 75%;
+	}
+
+	#textbox1, #textbox2, #textbox3, #textboxalt {
+		top: 25px;
+		left: 10px;
 	}
 }
 
@@ -211,6 +221,11 @@
 	#satanalign {
 		top: -250px;
 		left: 75%;
+	}
+
+	#textbox1, #textbox2, #textbox3, #textboxalt {
+		top: 25px;
+		left: 10px;
 	}
 }
 
