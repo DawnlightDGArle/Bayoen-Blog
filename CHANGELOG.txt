@@ -1,3 +1,8 @@
+2022.02.19
+- Fixed about us elements in contact page to be responsive on mobile
+- Added information on Puyo DA! plush set page
+- Set max-width for figcaption
+
 2022.02.18
 - Fixed textbox responsiveness on mobile for all merch pages
 

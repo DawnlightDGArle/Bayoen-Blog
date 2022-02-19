@@ -194,6 +194,15 @@
 		top: 25px;
 		left: 10px;
 	}
+
+	#iconalign1 {
+		max-width: 100px;
+	}
+
+	#abouttext {
+		top: -100px;
+		left: 125px;
+	}
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
@@ -209,6 +218,15 @@
 	#textbox1, #textbox2, #textbox3, #textboxalt {
 		top: 25px;
 		left: 10px;
+	}
+
+	#iconalign1 {
+		max-width: 125px;
+	}
+
+	#abouttext {
+		top: -100px;
+		left: 150px;
 	}
 }
 
@@ -226,6 +244,15 @@
 	#textbox1, #textbox2, #textbox3, #textboxalt {
 		top: 25px;
 		left: 10px;
+	}
+
+	#iconalign1 {
+		max-width: 150px;
+	}
+
+	#abouttext {
+		top: -100px;
+		left: 175px;
 	}
 }
 

@@ -340,4 +340,5 @@ ol {
 
 figcaption {
 	text-align: center;
+	max-width: 500px;
 }
