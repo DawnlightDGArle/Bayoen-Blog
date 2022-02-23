@@ -1,3 +1,8 @@
+2022.02.23
+- Changed colour of navigation menu on mobile
+- Added gif to README.md
+- Fixed location of language toggle on mobile and tablet devices
+
 2022.02.22
 - Finished adding mobile responsiveness to English site
 	- Added responsive navigation for mobile devices

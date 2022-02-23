@@ -25,3 +25,7 @@ and the current look of the top half of the home page of the Spanish version of 
 ![Blog Site Accessible Skip Navigation Button](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/f850c8e9f6c936147c545d0832dd05dbff0f2ad6/Screenshot%202021-12-26%20195416.png?raw=true "Skip Navigation Button")
 
 A Skip Navigation button can be accessed on the site by pressing 'tab' upon loading in the site. Also available on the Spanish version of the website.
+
+![Blog site responsive navigation menu for mobile](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/063947939e6ddb549d2dba20d8f42d33d6c38132/forgithub.gif "Responsive Navigation Menu")
+
+The blog currently has a responsive navigation menu for mobile devices for ease of navigation on smaller devices!
