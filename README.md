@@ -10,6 +10,8 @@ Project Start Date: August 2nd, 2021
 
 Project End Date: TBD
 
+🔗 Current Project Link: https://bayoen-blog-dev-demo.netlify.app/
+
 ## Screenshots of Project
 
 ![Blog Site Screenshot](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/455e4282e869720fca873e22b878ed0d3b3b2f71/Screenshot%202021-12-26%20194435.png?raw=true "Home Page")
