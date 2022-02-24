@@ -1,3 +1,6 @@
+2022.02.24
+- Added responsive navigation menu to Spanish version of site
+
 2022.02.23
 - Changed colour of navigation menu on mobile
 - Added gif to README.md
