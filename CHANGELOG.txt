@@ -1,3 +1,9 @@
+2022.03.03
+- Fixed language toggle on tablet devices for 3 pages
+
+2022.03.01
+- Added in page for SEGA Gals Collection Arle Gachapon Figurine
+
 2022.02.24
 - Added responsive navigation menu to Spanish version of site
 
