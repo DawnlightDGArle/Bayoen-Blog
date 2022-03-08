@@ -1,3 +1,6 @@
+2022.03.08
+- Translated 2 pages into Spanish for Spanish blog
+
 2022.03.03
 - Fixed language toggle on tablet devices for 3 pages
 
