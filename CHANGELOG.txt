@@ -1,3 +1,8 @@
+2022.03.10
+- Added Dusklight Doppelganger Arle Acrylic Stand to Misc list
+- Added page for Dusklight Doppelganger Arle Acrylic Stand
+	- Added placeholder image and text to page
+
 2022.03.08
 - Translated 2 pages into Spanish for Spanish blog
 
