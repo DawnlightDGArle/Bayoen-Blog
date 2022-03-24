@@ -1,3 +1,9 @@
+2022.03.23
+- Added Steam City Ringo Acrylic Stand to Misc list
+- Added page for Steam City Ringo Acrylic Stand
+	- Added low quality image and information text
+- Edited Dusklight Doppelganger Arle page to include information about merch piece
+
 2022.03.10
 - Added Dusklight Doppelganger Arle Acrylic Stand to Misc list
 - Added page for Dusklight Doppelganger Arle Acrylic Stand
