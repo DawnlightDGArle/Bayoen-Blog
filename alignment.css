@@ -1,0 +1,289 @@
+:root {
+	--textbox-colour: #54b9f8;
+	--boxshadow-colour: #037CC8;
+	--outline-colour: #E0FFFF;
+}
+
+/* Primary Image and Banner Alignment Classes */
+
+.homebanner {
+	position: absolute;
+	float: right;
+	top: 15px;
+	left:725px;
+}
+
+.imagealign1 {
+	position: relative;
+	float: right;
+	top: 25px;
+	right: 100px;
+	max-width: 100%;
+	height: auto;
+}
+
+.imagealignalt1 {
+	position: relative;
+	float: right;
+	top: -325px;
+	right: 30px;
+	max-width: 100%;
+	height: auto;
+}
+
+.subalign1 {
+	position: relative;
+	float: left;
+	top: 375px;
+	max-width: 100%;
+	height: auto;
+}
+
+.subalign2 {
+	position: relative;
+	float: left;
+	top: 590px;
+	max-width: 100%;
+	height: auto;
+}
+
+.subalign3 {
+	position: relative;
+	float: left;
+	top: 790px;
+	max-width: 100%;
+	height: auto;
+}
+
+.subalign4 {
+	position: relative;
+	float: left;
+	top: 990px;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Text, Text Wrap and Icon Alignment IDs */
+
+#abouttext {
+	background:var(--textbox-colour);
+	color:#F0FFFF;
+	padding: 25px;
+	position: relative;
+	top: -175px;
+	left: 250px;
+	max-width: 550px;
+	text-shadow: -1px 1px 0 var(--boxshadow-colour),
+				 1px 1px 0 var(--boxshadow-colour),
+				 1px -1px 0 var(--boxshadow-colour),
+				 -1px -1px 0 var(--boxshadow-colour),
+				 2px 2px 5px black;
+
+	 box-shadow: 1rem 1rem 0 0 #00ACE6;
+	 outline: 2px solid var(--outline-colour);
+	 outline-offset: -6px;
+}
+
+#iconalign1 {
+	position: relative;
+	left: 25px;
+	top: 35px;
+}
+
+#imgwrap {
+	float: right;
+	padding: 15px;
+}
+
+#locatortext {
+	margin: 10px;
+}
+
+#textbox1 {
+	background:var(--textbox-colour);
+	color:#111;
+	padding: 25px;
+	position: relative;
+	top: -950px; 
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
+#textboxalt {
+	background: var(--textbox-colour);
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -675px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
+#textbox2 {
+	background: var(--textbox-colour);
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -475px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
+#textbox3 {
+	background: var(--textbox-colour);
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -2200px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
+#textbox4 {
+	background: var(--textbox-colour);
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -375px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
+#carbalign {
+	position: relative;
+	z-index: 1;
+	width: 100px;
+	top: -110px;
+	right: -70px;
+}
+
+#satanalign {
+	position: relative;
+	z-index: 1;
+	width: 150px;
+	top: -220px;
+	left: 1120px;
+}
+
+#amialign {
+	margin-left: 50px;
+}
+
+@media only screen and (max-width: 540vw) {
+	#carbalign {
+		left: 5%;
+	}
+
+	#satanalign {
+		left: 85%;
+	}
+}
+
+@media only screen and (min-width: 280px) and (max-width: 374px) {
+	#carbalign {
+		top: -1050px;
+		left: 60%;
+	}
+
+	#satanalign {
+		top: -250px;
+		left: 70%;
+	}
+
+	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt {
+		top: 25px;
+		left: 10px;
+	}
+
+	#iconalign1 {
+		max-width: 100px;
+	}
+
+	#abouttext {
+		top: -100px;
+		left: 125px;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+	#carbalign {
+		top: -950px;
+		left: 65%;
+	}
+	#satanalign {
+		top: -250px;
+		left: 75%;
+	}
+
+	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt {
+		top: 25px;
+		left: 10px;
+	}
+
+	#iconalign1 {
+		max-width: 125px;
+	}
+
+	#abouttext {
+		top: -100px;
+		left: 150px;
+	}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+	#carbalign {
+		top: -875px;
+		left: 65%;
+	}
+
+	#satanalign {
+		top: -250px;
+		left: 75%;
+	}
+
+	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt {
+		top: 25px;
+		left: 10px;
+	}
+
+	#iconalign1 {
+		max-width: 150px;
+	}
+
+	#abouttext {
+		top: -100px;
+		left: 175px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px){
+	#carbalign {
+		top: -675px;
+		left: 70%;
+	}
+
+	#satanalign {
+		top: -250px;
+		left: 70%;
+	}
+}

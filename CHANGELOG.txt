@@ -1,3 +1,12 @@
+2022.03.26
+- Added root variables to main.css, alignment.css, waves.css
+- Renamed imagealign.css to alignment.css
+- Rerouted all html pages to link to alignment.css
+- Renamed DramaCD.html to Audio.html
+- Rerouted all html pages to link to Audio.html
+- Renamed page2.html to PlushToys.html
+- Rerouted all html pages to link to PlushToys.html
+
 2022.03.23
 - Added Steam City Ringo Acrylic Stand to Misc list
 - Added page for Steam City Ringo Acrylic Stand

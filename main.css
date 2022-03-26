@@ -1,5 +1,11 @@
 /*SET UP*/
 
+:root {
+	--textbox-colour: #54b9f8;
+	--boxshadow-colour: #037CC8;
+	--outline-colour: #E0FFFF;
+}
+
 html {
 	scroll-behavior: smooth;
 	text-size-adjust: 145%;
@@ -39,20 +45,20 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-	background: linear-gradient(#483D8B, #037CC8);
+	background: linear-gradient(#483D8B, var(--boxshadow-colour));
 	border-radius: 10px;
 }
 
 /*OTHER FUNCTIONS*/
 
 .secondary {
-	background:#54b9f8;
+	background:var(--textbox-colour);
 	color:#111;
 	padding: 25px;
 	min-width: 300px;
 	max-width: 750px;
 	margin: 10px;
-	outline: 2px solid #E0FFFF;
+	outline: 2px solid var(--outline-colour);
 	outline-offset: -6px;
 }	
 
@@ -71,10 +77,10 @@ img {
 	color: #F0FFFF;
 	padding: 5px;
 	margin: 10px 700px 0px 0px;
-	text-shadow: -1px 1px 0 #037CC8,
-				 1px 1px 0 #037CC8,
-				 1px -1px 0 #037CC8,
-				 -1px -1px 0 #037CC8,
+	text-shadow: -1px 1px 0 var(--boxshadow-colour),
+				 1px 1px 0 var(--boxshadow-colour),
+				 1px -1px 0 var(--boxshadow-colour),
+				 -1px -1px 0 var(--boxshadow-colour),
 				 2px 2px 5px black;
 	text-align: center;
 }
@@ -178,13 +184,13 @@ img {
 /*SIDEBAR NAVIGATION*/
 
 .homesidebar {
-	background: #54b9f8;
+	background: var(--textbox-colour);
 	position: relative;
 	float: right;
 	top: -250px;
 	right: 130px;
 	max-width: 155px;
-	outline: 2px solid #E0FFFF;
+	outline: 2px solid var(--outline-colour);
 	outline-offset: -6px;
 
 	font-size: 18px;
@@ -193,10 +199,10 @@ img {
 	color: #FFFFFF;
 	padding: 10px;
 	margin: 7px 0px 0px 0px;
-	text-shadow: -1px 1px 0 #037CC8, 
-				1px 1px 0 #037CC8, 
-				1px -1px 0 #037CC8, 
-				-1px -1px 0 #037CC8, 
+	text-shadow: -1px 1px 0 var(--boxshadow-colour), 
+				1px 1px 0 var(--boxshadow-colour), 
+				1px -1px 0 var(--boxshadow-colour), 
+				-1px -1px 0 var(--boxshadow-colour), 
 				1px 1px 5px black;
 	text-size-adjust: 135%;
 }
@@ -238,7 +244,7 @@ img {
 	color:black;
     margin: 10px;
 	padding: 10px;
-    background-color: #54b9f8;
+    background-color: var(--textbox-colour);
     width: 25%;
     height: 425px;
     outline: 2px dashed #F0F8FF;
