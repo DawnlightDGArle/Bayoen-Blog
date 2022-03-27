@@ -6,6 +6,7 @@
 - Rerouted all html pages to link to Audio.html
 - Renamed page2.html to PlushToys.html
 - Rerouted all html pages to link to PlushToys.html
+- Translated SEGA Gals Collection Arle Figure page into Spanish
 
 2022.03.23
 - Added Steam City Ringo Acrylic Stand to Misc list
