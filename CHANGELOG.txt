@@ -1,3 +1,6 @@
+2022.03.27
+- Added new higher resolution images to website
+
 2022.03.26
 - Added root variables to main.css, alignment.css, waves.css
 - Renamed imagealign.css to alignment.css
