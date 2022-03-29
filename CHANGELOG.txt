@@ -1,3 +1,8 @@
+2022.03.29
+- Changed folder names to remove spaces
+- Changed routing of file structure in all pages
+- Fixed error.html to display properly regardless of where the 404 error happened on site
+
 2022.03.27
 - Added new higher resolution images to website
 
