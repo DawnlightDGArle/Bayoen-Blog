@@ -1,3 +1,7 @@
+2022.04.12
+- Added page for Chubby Collection Arle Figures
+- Added image to Dusklight Doppelganger Arle acrylic stand page
+
 2022.03.29
 - Changed folder names to remove spaces
 - Changed routing of file structure in all pages
