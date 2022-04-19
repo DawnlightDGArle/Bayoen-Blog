@@ -146,6 +146,17 @@
 	top: 600px;
 }
 
+.wavesmerch6 {
+	aspect-ratio: var(--aspect-ratio);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -2;
+	position: absolute;
+	top: 1350px;
+}
+
 .footerwaves {
 	background-image: url('Website Assets/bbwavesfooter.svg');
 }

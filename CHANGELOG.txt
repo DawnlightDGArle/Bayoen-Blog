@@ -1,3 +1,16 @@
+2022.04.19
+- Finalised layout for Arle and Carbuncle Nendoroid page
+
+2022.04.18
+- Added page for Arle and Carbuncle Nendoroid
+
+2022.04.17
+- Added page for Puyo Puyo Novel Volume 2
+- Added new styling for waves
+- Edited books page to fix misclassification of the Puyo Puyo novel series
+- Added grid to disc media page
+- Changed name of audio cd page on navbar to be "Disc Media"
+
 2022.04.16
 - Added page for Rihona Kato bromide
 
