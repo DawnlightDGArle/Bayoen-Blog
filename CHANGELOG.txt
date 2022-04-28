@@ -1,3 +1,13 @@
+2022.04.26
+- Added page for Steam City Ringo Acrylic Clock
+
+2022.04.25
+- Changed media queries to hide waves svg from mobile devices and tablets
+- Fixed grid in Disc Media page to be responsive on mobile devices
+- Removed <hr> from all pages
+- Adjusted navigation menu to be 5px higher
+- Changed texture of textboxes to be small checkerboard pattern
+
 2022.04.19
 - Finalised layout for Arle and Carbuncle Nendoroid page
 

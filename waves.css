@@ -55,7 +55,7 @@
 	background-size: cover;
 	z-index: -1;
 	position: absolute;
-	top: 675px;
+	top: 400px;
 }
 
 .wavesfigures {
@@ -154,7 +154,7 @@
 	background-size: cover;
 	z-index: -2;
 	position: absolute;
-	top: 1350px;
+	top: 1000px;
 }
 
 .footerwaves {
@@ -162,263 +162,20 @@
 }
 
 /*MEDIA QUERIES FOR WAVE SVGS*/
-@media only screen and (min-width: 280px) and (max-width:374px) {
-	.waves {
-		width: 150%;
-		bottom: -3250px;
-	}
-
-	.wavesalt {
-		width: 150%;
-		top: 2600px;
-	}
-
-	.wavesplush {
-		width: 150%;
-		top: 1300px;
-	}
-
-	.wavesbooks {
-		width: 150%;
-		top: 2100px;
-	}
-
-	.wavesaudio {
-		width: 150%;
-		top: 1500px;
-	}
-
-	.wavesfigures {
-		width: 150%;
-		top: 800px;
-	}
-
-	.wavesmisc {
-		width: 150%;
-		top: 1400px;
-	}
-
-	.wavesgames {
-		width: 150%;
-		top: 3200px;
-	}
-
-	.wavesmerch1 {
-		width: 150%;
-		top: 1300px;
-	}
-
-	.wavesmerch2 {
-		width: 150%;
-		top: 800px;
-	}
-
-	.wavesmerch3 {
-		width: 150%;
-		top: 2000px;
-	}
-
-	.wavesmerch4 {
-		width: 150%;
-		top: 1450px;
-	}
-
-	.wavesmerch5 {
-		width: 150%;
-		top: 950px;
+@media only screen and (max-width: 600px) {
+	.waves, .wavesalt, .wavesplush, .wavesbooks, .wavesaudio, .wavesfigures, .wavesmisc, .wavesmerch1, .wavesmerch2, .wavesmerch3, .wavesmerch4, .wavesmerch5, .wavesmerch6 {
+		display: none;
 	}
 }
 
-@media only screen and (min-width: 375px)and (max-width: 424px) {
-	.wavesalt {
-		width: 150%;
-		top: 2300px;
-	}
-
-	.wavesplush {
-		width: 150%;
-		top: 1000px;
-	}
-	
-	.wavesbooks {
-		width: 150%;
-		top: 1700px;
-	}
-
-	.wavesaudio {
-		width: 150%;
-		top: 1500px;
-	}
-
-	.wavesfigures {
-		width: 150%;
-		top: 600px;
-	}
-
-	.wavesmisc {
-		width: 150%;
-		top: 1400px;
-	}
-
-	.wavesgames {
-		width: 150%;
-		top: 3000px;
-	}
-
-	.wavesmerch1 {
-		width: 150%;
-		top: 1320px;
-	}
-
-	.wavesmerch2 {
-		width: 150%;
-		top: 770px;
-	}
-
-	.wavesmerch3 {
-		width: 150%;
-		top: 2100px;
-	}
-
-	.wavesmerch4 {
-		width: 150%;
-		top: 1350px;
-	}
-
-	.wavesmerch5 {
-		width: 150%;
-		top: 930px;
+@media only screen and (max-width: 768px) {
+	.waves, .wavesalt, .wavesplush, .wavesbooks, .wavesaudio, .wavesfigures, .wavesmisc, .wavesmerch1, .wavesmerch2, .wavesmerch3, .wavesmerch4, .wavesmerch5, .wavesmerch6 {
+		display: none;
 	}
 }
 
-@media only screen and (min-width: 425px) and (max-width:767px) {
-	.waves {
-		width: 150%;
-		bottom: -3050px;
-	}
-	.wavesalt {
-		width: 150%;
-		top: 2100px;
-	}
-
-	.wavesplush {
-		width: 150%;
-		top: 1000px;
-	}
-
-	.wavesbooks {
-		width: 150%;
-		top: 1500px;
-	}
-
-	.wavesaudio {
-		width: 150%;
-		top: 1200px;
-	}
-
-	.wavesfigures {
-		width: 150%;
-		top: 500px;
-	}
-
-	.wavesmisc {
-		width: 150%;
-		top: 1000px;
-	}
-
-	.wavesgames {
-		width: 150%;
-		top: 2800px;
-	}
-
-	.wavesmerch1 {
-		width: 150%;
-		top: 1310px;
-	}
-
-	.wavesmerch2 {
-		width: 150%;
-		top: 750px;
-	}
-
-	.wavesmerch3 {
-		width: 150%;
-		top: 2250px;
-	}
-
-	.wavesmerch4 {
-		width: 150%;
-		top: 1310px;
-	}
-
-	.wavesmerch5 {
-		width: 150%;
-		top: 910px;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 800px) {
-	.waves {
-		width: 150%;
-		bottom: -2500px;
-	}
-	.wavesalt {
-		width: 150%;
-		top: 1500px;
-	}
-
-	.wavesplush {
-		width: 150%;
-		top: 800px;
-	}
-
-	.wavesbooks {
-		width: 150%;
-		top: 500px;
-	}
-
-	.wavesaudio {
-		width: 150%;
-		top: 1000px;
-	}
-
-	.wavesfigures {
-		width: 150%;
-		top: 100px;
-	}
-
-	.wavesmisc {
-		width: 150%;
-		top: 200px;
-	}
-
-	.wavesgames {
-		width: 150%;
-		top: 2200px;
-	}
-
-	.wavesmerch1 {
-		width: 150%;
-		top: 1320px;
-	}
-
-	.wavesmerch2 {
-		width: 150%;
-		top: 800px;
-	}
-
-	.wavesmerch3 {
-		width: 150%;
-		top: 2500px;
-	}
-
-	.wavesmerch4 {
-		width: 150%;
-		top: 1320px;
-	}
-
-	.wavesmerch5 {
-		width: 150%;
-		top: 800px;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.waves, .wavesalt, .wavesplush, .wavesbooks, .wavesaudio, .wavesfigures, .wavesmisc, .wavesmerch1, .wavesmerch2, .wavesmerch3, .wavesmerch4, .wavesmerch5, .wavesmerch6 {
+		display: none;
 	}
 }

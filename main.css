@@ -52,7 +52,7 @@ img {
 /*OTHER FUNCTIONS*/
 
 .secondary {
-	background:var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");
 	color:#111;
 	padding: 25px;
 	min-width: 300px;
@@ -94,7 +94,7 @@ img {
 
 .navhome {
   position: absolute;
-  top: 195px;
+  top: 190px;
 }
 
 .flex {
@@ -133,7 +133,7 @@ img {
 	position: relative;
 	float: right;
 	padding: 10px;
-	top: -240px;
+	top: -220px;
 	margin-right: 25px;
 }
 
@@ -157,7 +157,7 @@ img {
 	position: relative;
 	float: right;
 	padding: 10px;
-	top: -240px;
+	top: -220px;
 	margin-right: 25px;
 }
 
@@ -184,7 +184,7 @@ img {
 /*SIDEBAR NAVIGATION*/
 
 .homesidebar {
-	background: var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");;
 	position: relative;
 	float: right;
 	top: -250px;
@@ -244,7 +244,7 @@ img {
 	color:black;
     margin: 10px;
 	padding: 10px;
-    background-color: var(--textbox-colour);
+    background-image: url("Website\ Assets/TILE.png");;
     width: 25%;
     height: 425px;
     outline: 2px dashed #F0F8FF;
@@ -253,16 +253,6 @@ img {
 }
 
 /*GRID*/
-
-.item1 {
-    grid-area: advert;
-    max-width: 450px;
-}
-
-.item2 {
-    grid-area: content;
-    max-width: 450px;
-}
 
 .gridcont {
     min-height: 300px;
@@ -274,6 +264,28 @@ img {
     grid-template-areas:
       "advert"
       "content";
+}
+
+.gridcont2 {
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "advert"
+      "content";
+}
+
+.item1 {
+    grid-area: advert;
+    max-width: 450px;
+}
+
+.item2 {
+    grid-area: content;
+    max-width: 450px;
 }
 
 .item3 {
@@ -312,18 +324,6 @@ img {
 	  grid-column-end: 2;
   }
 
-  .gridcont2 {
-    min-height: 300px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
-    grid-template-areas:
-      "advert"
-      "content";
-}
-
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 540vw) {
@@ -346,6 +346,33 @@ img {
 @media only screen and (max-width: 767px) {
 	.gridcont {
 		width: 150%;
+	}
+
+	.gridcont2 {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-gap: 0px;
+	}
+
+	.item4 {
+		grid-row-start: 2;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 1;
+	}
+
+	.item5 {
+		grid-row-start: 3;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 1;
+	}
+
+	.item6 {
+		grid-row-start: 4;
+		grid-row-end: 4;
+		grid-column-start: 1;
+		grid-column-end: 1;
 	}
 }
 

@@ -66,7 +66,7 @@
 /* Text, Text Wrap and Icon Alignment IDs */
 
 #abouttext {
-	background:var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");;
 	color:#F0FFFF;
 	padding: 25px;
 	position: relative;
@@ -100,7 +100,7 @@
 }
 
 #textbox1 {
-	background:var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");
 	color:#111;
 	padding: 25px;
 	position: relative;
@@ -114,7 +114,7 @@
 }
 
 #textboxalt {
-	background: var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");
 	color: #111;
 	padding: 25px;
 	position: relative;
@@ -128,7 +128,7 @@
 }
 
 #textbox2 {
-	background: var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");
 	color: #111;
 	padding: 25px;
 	position: relative;
@@ -142,7 +142,7 @@
 }
 
 #textbox3 {
-	background: var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");
 	color: #111;
 	padding: 25px;
 	position: relative;
@@ -156,7 +156,7 @@
 }
 
 #textbox4 {
-	background: var(--textbox-colour);
+	background-image: url("Website\ Assets/TILE.png");
 	color: #111;
 	padding: 25px;
 	position: relative;
