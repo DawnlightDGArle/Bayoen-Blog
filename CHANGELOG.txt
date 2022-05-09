@@ -1,3 +1,12 @@
+2022.05.08
+- Added images to blog repository
+
+2022.05.07
+- Added Puyo Puyo!! Quest Ringo canvas pouch to blog
+- Refactored code for optimisation
+	- Removed 98% of CSS in waves.css, replaced with optimisations in HTML/CSS
+- Renamed Books page to Print Media
+
 2022.04.26
 - Added page for Steam City Ringo Acrylic Clock
 

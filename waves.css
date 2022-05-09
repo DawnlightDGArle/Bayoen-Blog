@@ -1,160 +1,16 @@
 :root {
 	--aspect-ratio: 900/600;
+	--width: auto;
 }
 
 /*WAVES SVG PLACEMENT*/
 .waves {
 	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
+	width: var(--width);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	z-index: -1;
-	position: absolute;
-	bottom: -1575px;
-}
-
-.wavesalt {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: 975px;
-}
-
-.wavesplush {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: 300px;
-}
-
-.wavesbooks {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: 300px;
-}
-
-.wavesaudio {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: 400px;
-}
-
-.wavesfigures {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: -100px;
-}
-
-.wavesmisc {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: -100px;
-}
-
-.wavesgames {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -1;
-	position: absolute;
-	top: 1250px;
-}
-
-.wavesmerch1 {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -2;
-	position: absolute;
-	top: 975px;
-}
-
-.wavesmerch2 {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -2;
-	position: absolute;
-	top: 400px;
-}
-
-.wavesmerch3 {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -2;
-	position: absolute;
-	top: 2200px;
-}
-
-.wavesmerch4 {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -2;
-	position: absolute;
-	top: 975px;
-}
-
-.wavesmerch5 {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -2;
-	position: absolute;
-	top: 600px;
-}
-
-.wavesmerch6 {
-	aspect-ratio: var(--aspect-ratio);
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	z-index: -2;
-	position: absolute;
-	top: 1000px;
 }
 
 .footerwaves {
@@ -163,19 +19,19 @@
 
 /*MEDIA QUERIES FOR WAVE SVGS*/
 @media only screen and (max-width: 600px) {
-	.waves, .wavesalt, .wavesplush, .wavesbooks, .wavesaudio, .wavesfigures, .wavesmisc, .wavesmerch1, .wavesmerch2, .wavesmerch3, .wavesmerch4, .wavesmerch5, .wavesmerch6 {
+	.waves {
 		display: none;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	.waves, .wavesalt, .wavesplush, .wavesbooks, .wavesaudio, .wavesfigures, .wavesmisc, .wavesmerch1, .wavesmerch2, .wavesmerch3, .wavesmerch4, .wavesmerch5, .wavesmerch6 {
+	.waves {
 		display: none;
 	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.waves, .wavesalt, .wavesplush, .wavesbooks, .wavesaudio, .wavesfigures, .wavesmisc, .wavesmerch1, .wavesmerch2, .wavesmerch3, .wavesmerch4, .wavesmerch5, .wavesmerch6 {
+	.waves {
 		display: none;
 	}
 }
