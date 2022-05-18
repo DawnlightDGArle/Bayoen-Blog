@@ -190,6 +190,31 @@ img {
 	transform: translateY(10%);
   }
 
+  #list {
+	  width: 500px;
+	  max-width: 700px;
+  }
+
+  #searchbar {
+	  margin-left: 10px;
+  }
+
+  #search-icon {
+	  position: relative;
+	  float: right;
+	  width: 25px;
+	  top: -35px;
+	  right: 15px;
+  }
+
+  #search-icon-alt {
+	position: relative;
+	float: right;
+	width: 25px;
+	top: -35px;
+	left: 150px;
+}
+
 /*SIDEBAR NAVIGATION*/
 
 .homesidebar {
@@ -227,8 +252,6 @@ img {
 #homebarlistesp {
 	position: relative;
 	float: right;
-	top: -170px;
-	right: -100px;
 	padding: 5px;
 	font-size: 16px;
 	line-height: 1.25;
@@ -423,15 +446,17 @@ img {
 		right: -15%;
 	}
 
+	#search-icon {
+		position: relative;
+		float: right;
+		width: 25px;
+		top: -35px;
+		left: 45%;
+	}
+
 }
 
 @media only screen and (min-width: 280px) and (max-width:424px) {
-	
-	#homebarlistesp {
-		top: -400px;
-		right: -170px;
-		width: 220px;
-	}
 
 	#lang-toggle1 {
 		top: 115px;
@@ -448,6 +473,10 @@ img {
 		right: 300px;
 	}
 
+	#homebarlist {
+		left: 15%;
+	}
+
 	.homebar {
 		position: relative;
 		top: 50%;
@@ -478,15 +507,18 @@ img {
 		top: -5%;
 		right: 25%;
 	}
+
+	#search-icon-alt {
+		position: relative;
+		float: right;
+		width: 25px;
+		top: -35px;
+		left: 35%;
+	}
 }
 
 @media only screen and (min-width: 425px) and (max-width:767px) {
 
-	#homebarlistesp {
-		top: -350px;
-		right: -300px;
-		width: 220px;
-	}
 	#lang-toggle1 {
 		top: 150px;
 		right: 250px;
@@ -502,6 +534,10 @@ img {
 		right: 400px;
 	}
 
+	#homebarlist {
+		left: 15%;
+	}
+
 	.homebar {
 		position: relative;
 		top: 50%;
@@ -531,6 +567,14 @@ img {
 	.homesidebar {
 		top: -5%;
 		right: 25%;
+	}
+
+	#search-icon-alt {
+		position: relative;
+		float: right;
+		width: 25px;
+		top: -35px;
+		left: 25%;
 	}
 }
 

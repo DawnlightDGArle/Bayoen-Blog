@@ -1,3 +1,10 @@
+2022.05.18
+- Added search results page and search bar function to blog
+
+2022.05.14
+- Updated spanish site home page to use grid format
+- Updated README with new screenshots of site
+
 2022.05.12
 - Added Puyo Puyo Chronicle Promotional DVD and 1996 BANPRESTO Puyo Puyo 33 Schezo Wegey plush to blog
 - Fixed issues with grid on some pages (note: needs monitoring)

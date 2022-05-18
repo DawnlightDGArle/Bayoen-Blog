@@ -14,11 +14,11 @@ Project End Date: TBD
 
 ## Screenshots of Project
 
-![Blog Site Screenshot](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/455e4282e869720fca873e22b878ed0d3b3b2f71/Screenshot%202021-12-26%20194435.png?raw=true "Home Page")
+![Blog Site Screenshot](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/ad86ef1b2a3dae0761a660aa755c402c00efa24b/Screenshot%202022-05-14%20145248.png "Home Page")
 
 The current look of the top half of the home page of the English site. Looks a little plain for now, but does include some cool CSS fade in animations and will include other features at a later date...
 
-![Blog Site Screenshot Spanish](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/455e4282e869720fca873e22b878ed0d3b3b2f71/Screenshot%202021-12-26%20194513.png?raw=true "SPA Home Page")
+![Blog Site Screenshot Spanish](https://github.com/DawnlightDGArle/Bayoen-Blog/blob/ad86ef1b2a3dae0761a660aa755c402c00efa24b/Screenshot%202022-05-14%20145812.png "SPA Home Page")
 
 and the current look of the top half of the home page of the Spanish version of the website! Complete with a custom gradient scrollbar.
 
