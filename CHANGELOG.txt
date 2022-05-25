@@ -1,3 +1,12 @@
+2022.05.24
+- Fixed mobile layout for small, medium and large devices and tablets
+- Fixed bug with search list causing horizontal scroll on small mobile devices
+- Debugged CSS files
+
+2022.05.23
+- Added page for COMPILE Club Magazine Vol. 60
+- Debugged code
+
 2022.05.18
 - Added search results page and search bar function to blog
 
