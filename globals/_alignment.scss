@@ -169,6 +169,20 @@
 	z-index: -1;
 }
 
+#textbox4 {
+	background-image: url("Website\ Assets/TILE.png");
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -1300px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
 #carbalign {
 	position: relative;
 	z-index: 1;

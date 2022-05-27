@@ -1,0 +1,102 @@
+.mobile-nav-toggle {
+    display: none;
+   }
+   
+ .mobile-nav-toggle[aria-expanded="true"] {
+     background-image: url("Website Assets/x.svg");
+   }
+ 
+ #lang-toggle {
+     position: relative;
+     float: right;
+     padding: 10px;
+     top: -220px;
+     margin-right: 25px;
+ }
+ 
+ #lang-toggle a {
+     text-decoration: none;
+ }
+ 
+ #lang-toggle1 {
+     position: absolute;
+     float: right;
+     padding: 10px;
+     top: 0px;
+     right: 20px;
+ }
+ 
+ #lang-toggle1 a {
+     text-decoration: none;
+ }
+ 
+ #lang-toggle2 {
+     position: relative;
+     float: right;
+     padding: 10px;
+     top: -220px;
+     margin-right: 25px;
+ }
+ 
+ #lang-toggle2 a {
+     text-decoration: none;
+ }
+ 
+ .skip-nav-link {
+     position: absolute;
+     background: #483D8B;
+     padding: 15px 15px;
+     border-radius: 5px;
+     transition: transform 325ms ease-in;
+     text-decoration: none;
+     color: white;
+     margin: 10px;
+     transform: translateY(-150%);
+   }
+   
+   .skip-nav-link:focus {
+     transform: translateY(10%);
+   }
+ 
+   #list {
+       max-width: 300px;
+   }
+ 
+   #searchbar {
+       margin-left: 10px;
+       border-radius: 10px;
+   }
+ 
+   input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+ 
+   input[type=text]:focus {
+        width: 70%;
+  }
+ 
+   #search-icon {
+       position: relative;
+       float: right;
+       width: 25px;
+       top: -35px;
+       right: 15px;
+   }
+ 
+   #search-icon-alt {
+     position: relative;
+     float: right;
+     width: 25px;
+     top: -35px;
+     left: 150px;
+ }
+ 
+ #search-icon-merch {
+     position: relative;
+     float: right;
+     width: 25px;
+     top: -35px;
+     left: 150px;
+ }

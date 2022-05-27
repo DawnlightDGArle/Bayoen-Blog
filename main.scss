@@ -1,0 +1,175 @@
+/*SET UP*/
+
+@forward 'globals/alignment';
+@forward 'globals/flexgrid';
+@forward 'globals/navigation-toggles';
+@forward 'globals/typography';
+@forward 'globals/wavessvgs';
+@forward 'globals/mediaqueries';
+
+:root {
+	--textbox-colour: #54b9f8;
+	--boxshadow-colour: #037CC8;
+	--outline-colour: #E0FFFF;
+}
+
+html {
+	scroll-behavior: smooth;
+	text-size-adjust: 145%;
+}
+
+body {
+	background: linear-gradient(to bottom, #87CEFA, #AFEEEE);
+	font-family: calibri;
+	font-size: 18px;
+	color:#222;
+	margin: 0;
+	padding: 0
+}
+
+footer {
+	width: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+  }
+
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: auto;
+}
+
+::-webkit-scrollbar-track {
+	background: #a7d4d4;
+	border-radius: 10px;
+	margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(#483D8B, var(--boxshadow-colour));
+	border-radius: 10px;
+}
+
+/*OTHER FUNCTIONS*/
+
+.secondary {
+	background-image: url("Website\ Assets/TILE.png");
+	color:#111;
+	padding: 25px;
+	min-width: 300px;
+	max-width: 750px;
+	margin: 10px;
+	outline: 2px solid var(--outline-colour);
+	outline-offset: -6px;
+
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}	
+
+.main {
+	opacity: 0;
+	display: none;
+	transition: opacity 1s ease-in;
+}
+
+.aboutus {
+	max-width: 1250px;
+}
+
+#textbox {
+	font-size: 35px;
+	color: #F0FFFF;
+	padding: 5px;
+	margin: 10px 700px 0px 0px;
+	text-shadow: -1px 1px 0 var(--boxshadow-colour),
+				 1px 1px 0 var(--boxshadow-colour),
+				 1px -1px 0 var(--boxshadow-colour),
+				 -1px -1px 0 var(--boxshadow-colour),
+				 2px 2px 5px black;
+	text-align: center;
+}
+
+.headercolour {
+	background: linear-gradient(to bottom right,#A7C7D2,#00ace6);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navhome {
+  position: absolute;
+  top: 190px;
+  margin-left: 10px;
+}
+
+.flex {
+	display: flex;
+	gap: var(--gap, 2rem);
+  }
+  
+  .primary-navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .primary-navigation a {
+	color: #483D8B;
+	font-size: 20px;
+	font-weight: bold;
+	text-size-adjust: 110%;
+	padding: 2px 2px;
+	text-decoration: none;
+  }
+  
+  .primary-navigation[data-visible="true"] {
+	transform: translateX(0%);
+  }
+
+/*SIDEBAR NAVIGATION*/
+
+.homesidebar {
+	background-image: url("Website\ Assets/TILE.png");;
+	position: relative;
+	float: right;
+	right: 70px;
+	max-width: 155px;
+	outline: 2px solid var(--outline-colour);
+	outline-offset: -6px;
+
+	font-size: 18px;
+	width: 120px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 7px 0px 0px 0px;
+	text-shadow: -1px 1px 0 var(--boxshadow-colour), 
+				1px 1px 0 var(--boxshadow-colour), 
+				1px -1px 0 var(--boxshadow-colour), 
+				-1px -1px 0 var(--boxshadow-colour), 
+				1px 1px 5px black;
+	text-size-adjust: 135%;
+}
+
+#homebarlist {
+	position: relative;
+	float: right;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1.25;
+	text-size-adjust: 135%;
+}
+
+#homebarlistesp {
+	position: relative;
+	float: right;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1.25;
+	text-size-adjust: 135%;
+}

@@ -1,0 +1,114 @@
+/*FLEXBOX*/
+
+#faq {
+	display: flex;
+	flex-direction: row;
+	height: 75%;
+    justify-content: center;
+	z-index: 1;
+}
+
+#faq1 {
+	text-align: center;
+	color:black;
+    margin: 10px;
+	padding: 10px;
+    background-image: url("Website\ Assets/TILE.png");;
+    width: 25%;
+    height: 425px;
+    outline: 2px dashed #F0F8FF;
+    outline-offset: -4px;
+	z-index: 1;
+}
+
+/*MAIN GRID*/
+
+.home-grid {
+	display: grid;
+  }
+
+.homebar {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+}
+
+.main-text {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+
+/*SUB GRID*/
+
+.gridcont {
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "advert"
+      "content";
+}
+
+.gridcont2 {
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "advert"
+      "content";
+}
+
+.item1 {
+    grid-area: advert;
+    max-width: 450px;
+}
+
+.item2 {
+    grid-area: content;
+    max-width: 450px;
+}
+
+.item3 {
+    grid-area: advert;
+    max-width: 450px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .item4 {
+    grid-area: content;
+    max-width: 450px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+.item5 {
+    grid-area: content;
+    max-width: 450px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .item6 {
+	  grid-area: content;
+	  max-width: 450px;
+	  grid-row-start: 2;
+	  grid-row-end: 2;
+	  grid-column-start: 2;
+	  grid-column-end: 2;
+  }

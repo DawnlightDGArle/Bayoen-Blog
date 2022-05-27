@@ -1,3 +1,7 @@
+2022.05.26
+- Added Sass to blog tech stack
+- Rearranged file directory to accomodate new changes from Sass
+
 2022.05.24
 - Fixed mobile layout for small, medium and large devices and tablets
 - Fixed bug with search list causing horizontal scroll on small mobile devices
