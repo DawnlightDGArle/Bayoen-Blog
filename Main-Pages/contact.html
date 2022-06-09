@@ -109,7 +109,7 @@
 					<label for="message">Your Message</label>
 					<textarea id="message" name="message" placeholder="Enter message here" style="height:200px" required></textarea>
 				
-					<input type="submit" value="Submit">
+					<input type="submit" value="Submit" onclick = "submitClick()">
 				
 					</form>
 				</div>
@@ -132,5 +132,10 @@
 		<div class = "mobile-nav-toggle"></div>
 		<script src="../main.js"></script>
 		<script src="../navigation.js"></script>
+		<script>
+		function submitClick() {
+		  	alert("Thank you for contacting us! We'll respond to your inquiry as soon as we can!");
+		}
+		</script>
 	</body>
 </html>

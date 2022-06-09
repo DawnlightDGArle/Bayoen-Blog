@@ -1,6 +1,10 @@
+2022.06.03
+- Added new page for Puyo Tetris promotional DVDs, Sanrio x Puyo Puyo plush set and Puyo Chronicle Anniversary Box
+
 2022.05.26
 - Added Sass to blog tech stack
 - Rearranged file directory to accomodate new changes from Sass
+- Added popup upon form submission for contact form
 
 2022.05.24
 - Fixed mobile layout for small, medium and large devices and tablets
