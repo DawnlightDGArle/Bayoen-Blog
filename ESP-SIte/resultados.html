@@ -6,7 +6,7 @@
 		<meta name="description" content="¡Un blog de archivo dedicado a educar y archivar medios relacionados con la serie de videojuegos Madou Monogatari y Puyo Puyo!">
 		<link href="../main.css" rel="stylesheet" />
 		<link href="../Website Assets/BlogTabIcon.png" rel="icon" />
-        <title>El Blog de Bayoe~n - Juguetes de Peluches</title>
+        <title>El Blog de Bayoe~n - Resultados de la Búsqueda</title>
 	</head>
 	<body>
 		<header>
@@ -17,7 +17,7 @@
 						<li><a href="contacto.html"> Sobre Nosotros/Contacto </a></li>
 						<li><a href="juguetes.html"> Juguetes de Peluches </a></li>
 						<li><a href="libros.html"> Medios Impresos </a></li>
-						<li><a href="audio.html"> Medios de Discos </a></li>
+					    <li><a href="audio.html"> Medios de Discos </a></li>
 						<li><a href="figuritas.html"> Figuritas </a></li>
 						<li><a href="juegos.html"> Juegos</a></li>
 						<li><a href="articulos.html"> Artículos Diversos </a></li>
@@ -33,50 +33,44 @@
 
 			</div>
 			<div id="lang-toggle">
-				<b><a href="../Main-Pages/PlushToys.html">Inglés</a> / <a href="juguetes.html">Español</a></b>
+				<b><a href="../Main-Pages/Misc.html">Inglés</a> / <a href="articulos.html">Español</a></b>
 			</div>
 
-			<div id = "search-icon-esp2">
+            <div id = "search-icon-esp2">
 				<a href = "resultados.html"><img src = "../../Website Assets/search.svg" alt = "Search"></a>
 			</div>
-			
+
 		</header>
 
 		<section class ="main">
 			<main id = "main">
-			<div id="locatortext">		
-					<img src="../Website Assets/SPA Assets/juguetes.png" alt="Juguetes de Peluches">
-
-				<h3>¡Puede encontrar una lista completa de todos los juguetes de peluche que hemos revisado aquí! Estos juguetes están ordenados por época (y incluso pueden clasificarse
-					en una subcategoría por año en el futuro a medida que la lista de peluches revisados y documentados aumente). </h3>
-					
-					<h4> COMPILE Era </h4>
-				<ul>
-					<li>1992 SEGA Puyo Puyo Juguetes de Peluches</li>
-					<li>1994 Banpresto Serie de Altavoces Juguetes de Peluches</li>
-					<li>2000 Puyo Puyo DA! Premio UFO Catcher Juguetes de Peluches</li>
-				</ul>
-				
-				<h4> SEGA Era </h4>
-				<ul>
-					<li>2009 Sanei Puyo Puyo 7 Carbuncle Juguete de La Bolsa de Frijoles</li>
-					<li>2021 Sanrio x Puyo Puyo Colaboración Premio UFO Catcher Juguetes de Peluches</li>
-					<li>2021 Puyo Puyo Acostada Juguetes de Peluches (Vol. 1 & 2)</li>
-				</ul>
-				<br> </br>
+				<br> <br>
+				<input id = "searchbar" onkeyup = "search_blog()" type = "text" name = "search" placeholder = "Buscar en El Blog de Bayoe~n">
+                <ul id = "list">
+					<li><a href = "pagina.html">Página Principal</a></li>
+                    <li><a href = "ESP-Sub/Arle25thFigura.html">2016 Figura Puyo Puyo 25 Aniversario del Premio SEGA - Arle y Carbuncle</a></li>
+					<li><a href = "ESP-Sub/Amitie25thFigura.html">2016 Figura Puyo Puyo 25 Aniversario del Premio SEGA - Amitie y Carbuncle</a></li>
+                    <li><a href="ESP-Sub/CDDramaVol4Poster.html">CD de Drama Puyo Puyo Volumen 4 Póster Publicitario </a></li>
+					<li><a href="ESP-Sub/cddramaposter.html">CD de Drama Puyo Puyo Volumen 5 Póster Publicitario </a></li>
+					<li><a href="../Sub Pages/puyochronposter.html">Puyo Puyo Chronicle Póster Publicitario</a></li>
+                </ul>
 			</main>
 
+        <br> </br>
+
 		<footer>
-			<div class = "waves footerwavesesp"></div>
+            <div class = "waves footerwavesesp"></div>
 		<h6>
-			Información de copyright: El Blog de Bayoe~n™, 2021. Blog de Bayoe~n™, Blogger de Bayoe~n ™ y cualquiera de sus afiliados no están asociados de ninguna manera con COMPILE ©, COMPILE HEART ©, D4 Enterprise ©, 
+			Información de copyright: El Blog de Bayoe~n™, 2021. Blog de Bayoe~n™, Blogger de Bayoe~n™ y cualquiera de sus afiliados no están asociados de ninguna manera con COMPILE ©, COMPILE HEART ©, D4 Enterprise ©, 
 			SEGA © o cualquier otro de sus afiliados. Las acciones de este blog son completamente independientes y este blog de ninguna manera, forma o forma es una violación de la Ley de Derechos de Autor del Milenio Digital. 
 			Si cree que algo en nuestro sitio no está incluido en el uso legítimo, comuníquese con el propietario de nuestro sitio para discutir una resolución.
 		</h6>
 		</footer>
-	</div>
-		<div class = "mobile-nav-toggle"></div>
-		<script src="../main.js"></script>
-		<script src="../navigation.js"></script>
+        </section>
+			</div>
+			<div class = "mobile-nav-toggle"></div>
+			<script src="../main.js"></script>
+			<script src="../navigation.js"></script>
+            <script src = "../search.js"></script>
 	</body>
 </html>

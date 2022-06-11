@@ -183,6 +183,20 @@
 	z-index: -1;
 }
 
+#textbox6 {
+	background-image: url("Website\ Assets/TILE.png");
+	color: #111;
+	padding: 25px;
+	position: relative;
+	top: -1700px;
+	left: 550px;
+	min-width: 150px;
+	max-width: 350px;
+	outline: 2px dashed var(--outline-colour);
+	outline-offset: -6px;
+	z-index: -1;
+}
+
 #carbalign {
 	position: relative;
 	z-index: 1;
@@ -224,7 +238,7 @@
 		left: 70%;
 	}
 
-	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt {
+	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt, #textbox5, #textbox6 {
 		top: 25px;
 		left: 10px;
 	}
@@ -249,7 +263,7 @@
 		left: 75%;
 	}
 
-	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt {
+	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt, #textbox5, #textbox6 {
 		top: 25px;
 		left: 10px;
 	}
@@ -275,7 +289,7 @@
 		left: 75%;
 	}
 
-	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt {
+	#textbox1, #textbox2, #textbox3, #textbox4, #textboxalt, #textbox5, #textbox6 {
 		top: 25px;
 		left: 10px;
 	}

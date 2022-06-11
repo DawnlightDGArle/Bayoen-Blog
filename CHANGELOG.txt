@@ -1,3 +1,9 @@
+2022.06.09
+- Added search functionality and waves footers to Spanish site
+- Added grid to disc and print media pages of Spanish site
+- Registered domain name for The Bayoe~n Blog
+	- Added new link to README
+
 2022.06.03
 - Added new page for Puyo Tetris promotional DVDs, Sanrio x Puyo Puyo plush set and Puyo Chronicle Anniversary Box
 
