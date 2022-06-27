@@ -1,3 +1,13 @@
+2022.06.27
+- Added images of Puyo Puyo ON STAGE Bromide Case and added information about item
+
+2022.06.21
+- Added Lyra Amato, Yui Kawamura, Root, Risako Ito and Mika Kikuchi bromides to blog
+
+2022.06.15
+- Added notice on developer edition of blog redirecting visitors to the public stable release of the blog
+- Added page for Puyo Puyo ON STAGE Bromide Case
+
 2022.06.09
 - Added search functionality and waves footers to Spanish site
 - Added grid to disc and print media pages of Spanish site
