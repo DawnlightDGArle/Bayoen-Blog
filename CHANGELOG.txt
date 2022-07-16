@@ -1,3 +1,6 @@
+2022.07.16
+- Added honeypot field to contact form for extra spam protection
+
 2022.07.15
 - Added 30th Anniversary Puyo Puyo Artwork Collection and UNIQLO "The Game Classic Pixels" Series Puyo Puyo T-shirt to blog
 

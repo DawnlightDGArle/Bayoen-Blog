@@ -98,7 +98,7 @@
 				</p>
 
 				<div class="formbox">
-					<form name = "contact" method="post" data-netlify="true">
+					<form name = "contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
 				
 					<label for="name">Your Name</label>
 					<input type="text" id="name" name="name" placeholder="Enter name (can be a username, just need a name to address you by)" required>
@@ -108,6 +108,12 @@
 				
 					<label for="message">Your Message</label>
 					<textarea id="message" name="message" placeholder="Enter message here" style="height:200px" required></textarea>
+
+					<p class = "hidden">
+						<label>
+							Don't fill this out if you're human: <input name = "bot-field">
+						</label>
+					</p>
 				
 					<input type="submit" value="Submit" onclick = "submitClick()">
 				
